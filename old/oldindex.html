@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 보이스 코칭 프로토타입</title>
+    <style>
+        :root {
+            --primary: #4A90E2;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-dark: #333333;
+            --text-light: #666666;
+        }
+        body {
+            font-family: 'Pretendard', -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: var(--card-bg);
+            width: 100%;
+            max-width: 500px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            padding: 30px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .screen { display: none; }
+        .screen.active { display: block; }
+        
+        h1 { font-size: 24px; margin-bottom: 20px; }
+        h2 { font-size: 20px; color: var(--primary); }
+        
+        .script-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            border: 1px solid #e9ecef;
+            text-align: left;
+        }
+
+        button {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            transition: 0.2s;
+        }
+        button:hover { background-color: #357ABD; }
+        button:disabled { background-color: #cccccc; cursor: not-allowed; }
+        
+        .btn-stop { background-color: #E24A4A; }
+        .btn-stop:hover { background-color: #BD3535; }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .input-group input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .result-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .result-card span { display: block; font-size: 14px; color: var(--text-light); }
+        .result-card strong { font-size: 18px; color: var(--primary); }
+        
+        .highlight-red { color: #E24A4A; font-weight: bold; }
+        #loading { display: none; color: var(--primary); font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <div id="screen-home" class="screen active">
+        <h1>🎙️ AI 스피치 훈련</h1>
+        <p>랜덤 문장으로 당신의 발음을 교정해보세요.</p>
+        <br>
+        <button onclick="startRandom()">🎲 랜덤 단문 챌린지 시작</button>
+        <button onclick="showHistory()" style="background-color: #34C759; margin-top: 10px;">📜 과거 기록 보기</button>
+    </div>
+
+    <div id="screen-record" class="screen">
+        <h1>도전 대본</h1>
+        <div id="script-display" class="script-box">대본 로딩 중...</div>
+    
+        <h2 id="timer">00:00</h2>
+    
+        <button id="btn-start-record" onclick="startRecording()">🔴 녹음 시작</button>
+        <button id="btn-stop-record" class="btn-stop" onclick="stopRecording()" style="display: none;">⏹️ 녹음 종료 및 분석</button>
+        
+        <button onclick="goHome()" style="background-color: #666; margin-top: 10px;">🏠 취소하고 홈으로</button>
+    
+        <div id="loading">AI가 목소리를 정밀 분석 중입니다... ⏳</div>
+    </div>
+
+    <div id="screen-result" class="screen">
+        <h1>분석 리포트 📊</h1>
+        
+        <div class="result-grid">
+            <div class="result-card" style="grid-column: span 2;">
+                <span>종합 명료도 점수</span>
+                <strong id="res-clarity" style="font-size: 28px;">0점</strong>
+            </div>
+            <div class="result-card">
+                <span>발음 정확도</span>
+                <strong id="res-accuracy">0%</strong>
+            </div>
+            <div class="result-card">
+                <span>말하기 속도</span>
+                <strong id="res-rate">0 음절/초</strong>
+            </div>
+            <div class="result-card">
+                <span>침묵 비율</span>
+                <strong id="res-silence">0%</strong>
+            </div>
+            <div class="result-card">
+                <span>총 소요 시간</span>
+                <strong id="res-duration">0초</strong>
+            </div>
+            <div style="margin-top: 20px; text-align: center;">
+                <p>🎧 내 녹음 다시 듣기</p>
+                <audio id="result-audio" controls style="width: 100%;"></audio>
+            </div>
+        </div>
+
+        <div class="script-box">
+            <span style="font-size: 14px; color: #666;">AI가 인식한 내 목소리:</span><br>
+            <span id="res-recognized">...</span>
+        </div>
+
+        <button onclick="goHome()">🏠 처음으로 돌아가기</button>
+    </div> <div id="screen-history" class="screen">
+        <h1>나의 연습 기록 📜</h1>
+        <div id="history-list" style="text-align: left; max-height: 400px; overflow-y: auto; margin-bottom: 20px;">
+        </div>
+        <button onclick="goHome()">🏠 홈으로 돌아가기</button>
+    </div>
+
+</div>
+
+<script>
+    // 💡 백엔드 주소 (로컬에서 띄운 FastAPI 포트와 맞춰주세요)
+    const API_BASE_URL = window.location.origin;
+
+    let currentSentenceId = null;
+    let mediaRecorder;
+    let audioChunks = [];
+    let timerInterval;
+    let startTime;
+
+    // 화면 전환 함수
+    function showScreen(screenId) {
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+        document.getElementById(screenId).classList.add('active');
+    }
+
+    // 홈으로 돌아가는 함수 (진행 중인 모든 상태 초기화)
+    function goHome() {
+        // 1. 타이머 정지
+        if(timerInterval) clearInterval(timerInterval);
+    
+        // 2. 녹음이 진행 중이라면 강제 정지 (데이터는 전송하지 않음)
+        if(mediaRecorder && mediaRecorder.state === "recording") {
+            mediaRecorder.onstop = null; // 결과 전송 로직 연결 해제
+            mediaRecorder.stop();
+        }
+    
+        // 3. UI 요소들 초기 상태로 리셋
+        document.getElementById('btn-start-record').style.display = 'block';
+        document.getElementById('btn-stop-record').style.display = 'none';
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('timer').innerText = "00:00";
+    
+        // 4. 홈 화면 표시
+        showScreen('screen-home');
+    }
+
+    // [API 1] 랜덤 문장 불러오기
+    async function startRandom() {
+        try {
+            const res = await fetch(`${API_BASE_URL}/api/sentence/random`);
+            const data = await res.json();
+            
+            currentSentenceId = data.sentence_id;
+            document.getElementById('script-display').innerText = data.text;
+            showScreen('screen-record');
+        } catch (error) {
+            alert("서버 연결 실패! FastAPI가 실행 중인지 확인하세요.");
+            console.error(error);
+        }
+    }
+
+    // 마이크 접근 및 녹음 시작
+    async function startRecording() {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            mediaRecorder = new MediaRecorder(stream);
+            audioChunks = [];
+
+            mediaRecorder.ondataavailable = event => {
+                audioChunks.push(event.data);
+            };
+
+            mediaRecorder.onstop = sendAudioToBackend;
+            
+            mediaRecorder.start();
+            
+            // UI 변경
+            document.getElementById('btn-start-record').style.display = 'none';
+            document.getElementById('btn-stop-record').style.display = 'block';
+            
+            // 타이머 시작
+            startTime = Date.now();
+            timerInterval = setInterval(() => {
+                const elapsed = Math.floor((Date.now() - startTime) / 1000);
+                const m = String(Math.floor(elapsed / 60)).padStart(2, '0');
+                const s = String(elapsed % 60).padStart(2, '0');
+                document.getElementById('timer').innerText = `${m}:${s}`;
+            }, 1000);
+
+        } catch (err) {
+            alert("마이크 권한이 필요합니다.");
+        }
+    }
+
+    // 녹음 종료
+    function stopRecording() {
+        if(mediaRecorder && mediaRecorder.state === "recording") {
+            mediaRecorder.stop();
+            clearInterval(timerInterval);
+            
+            // UI 로딩 처리
+            document.getElementById('btn-stop-record').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+        }
+    }
+
+    // [API 2] 백엔드로 전송 및 결과 받기
+    async function sendAudioToBackend() {
+        const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+        const audioUrl = URL.createObjectURL(audioBlob); // 브라우저 메모리에 있는 오디오 임시 주소 만들기
+        document.getElementById("result-audio").src = audioUrl; // 플레이어에 쏙 넣기
+        
+        const formData = new FormData();
+        // 백엔드에서 받는 이름(file, sentence_id)과 일치해야 함
+        formData.append("file", audioBlob, "record.webm"); 
+
+        try {
+            const res = await fetch(`${API_BASE_URL}/upload?sentence_id=${currentSentenceId}`, {
+                method: "POST",
+                body: formData
+            });
+            
+            const data = await res.json();
+            displayResult(data.analysis_results);
+
+        } catch (error) {
+            alert("음성 분석 중 오류가 발생했습니다.");
+            console.error(error);
+            document.getElementById('btn-start-record').style.display = 'block';
+            document.getElementById('loading').style.display = 'none';
+        }
+    }
+
+    // [API 3 호출] 기록 가져오기 및 화면 표시
+    async function showHistory() {
+        try {
+            const res = await fetch(`${API_BASE_URL}/api/history`);
+            const data = await res.json();
+            
+            const historyList = document.getElementById('history-list');
+            historyList.innerHTML = ''; // 초기화
+
+            if(data.length === 0) {
+                historyList.innerHTML = '<p style="text-align:center;">아직 기록이 없습니다.</p>';
+            } else {
+                data.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'result-card';
+                    card.style.marginBottom = '10px';
+                    card.innerHTML = `
+                        <div style="font-size: 12px; color: #888;">${item.created_at}</div>
+                        <div style="font-weight: bold; margin: 5px 0;">대본: ${item.original_text}</div>
+                        <div style="color: var(--primary);">인식: ${item.recognized_text}</div>
+                        <div style="font-weight: bold; color: #E24A4A;">점수: ${item.clarity_score * 100}점</div>
+                    `;
+                    historyList.appendChild(card);
+                });
+            }
+            showScreen('screen-history');
+        } catch (error) {
+            alert("기록을 불러오지 못했습니다.");
+        }
+    }
+
+    // 결과 화면에 데이터 바인딩
+    function displayResult(results) {
+        document.getElementById('res-clarity').innerText = results.metrics.clarity_score;
+        document.getElementById('res-accuracy').innerText = results.metrics.articulation_accuracy;
+        document.getElementById('res-rate').innerText = results.metrics.speech_rate;
+        document.getElementById('res-silence').innerText = results.metrics.silence_ratio;
+        document.getElementById('res-duration').innerText = results.duration;
+        document.getElementById('res-recognized').innerText = results.recognized_text;
+        
+        // 초기화
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('btn-start-record').style.display = 'block';
+        document.getElementById('timer').innerText = "00:00";
+        
+        showScreen('screen-result');
+    }
+</script>
+
+</body>
+</html>

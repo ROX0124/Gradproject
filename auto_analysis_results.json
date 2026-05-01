@@ -1,0 +1,1762 @@
+[
+    {
+        "filename": "merged_SPK014_SPK014KBSCU001_1.wav",
+        "sentence_id": 1,
+        "results": {
+            "record_id": 51,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU001_1.wav",
+            "analysis_results": {
+                "sentence_id": 1,
+                "reference_text": "지난해 극장을 찾은 연간 관객 수가 역대 최다치를 기록했습니다. 전년보다 수치가 감소했을 거라는 추측이 많았는데 한국 영화들의 뒷심이 뜻밖의 결과로 이어졌습니다. 영화진흥위원회 자료에 따르면 2017년 극장가 누적 관객 수는 2억 1987만명으로 집계됐습니다. 당초 업계에선 이른바 `천만 영화`가 `택시운전사` 한 편에 그치는 등 부진한 한해였다고 평가했지만 연간 관객 수는 2016년보다 284만명이 증가한 것으로 나타났습니다.",
+                "recognized_text": "지난해 극장을 찾은 연간 관객 수가 역대 최다치를 기록했습니다. 전년보다 수치가 감소했을 거라는 추측이 많았는데 한국 영화들의 뒷심이 뜻밖의 결과로 이어졌습니다. 영화진흥위원회 자료에 따르면 2017년 극장가 누적 관객 수는 2억 1987만 명으로 집계됐습니다. 당초 업계에선 이른바 천만 영화가 택시 운전사 한 편에 그치는 등 부진한 한 해였다고 평가했지만 연간 관객수는 2016년보다 284만 명이 증가한 것으로 나타났습니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.88%",
+                    "speech_rate": "4.83 음절/초",
+                    "silence_ratio": "6.09%",
+                    "clarity_score": "97.72점"
+                },
+                "duration": "38.28초",
+                "total_silence_time": "2.33초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU001_2.wav",
+        "sentence_id": 2,
+        "results": {
+            "record_id": 52,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU001_2.wav",
+            "analysis_results": {
+                "sentence_id": 2,
+                "reference_text": "이는, 지난 12월 14일 개봉한 정우성 주연의 `강철비`를 시작으로 `신과 함께 죄와벌` `1987` 등 한국 영화 여러 편이 일제히 흥행에 성공하며 막판 반등을 이뤄낸 덕분인데요, 그 결과, 지난해 한국 영화는 6년 연속 관객 수 1억명대를 유지했고 점유율도 53% 를 기록했습니다.",
+                "recognized_text": "이는 지난 12월 14일 개봉한 정우성 주연의 강철비를 시작으로 신과 함께 죄야벌, 1987 등 한국 영화 여러 편이 일제히 흥행에 성공하며 막판 반등을 이뤄낸 덕분인데요. 그 결과 지난해 한국 영화는 6년 연속 관객수 1억 명대를 유지했고 점유율도 53%를 기록했습니다.",
+                "metrics": {
+                    "articulation_accuracy": "91.74%",
+                    "speech_rate": "4.51 음절/초",
+                    "silence_ratio": "1.19%",
+                    "clarity_score": "95.63점"
+                },
+                "duration": "25.28초",
+                "total_silence_time": "0.3초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU001_3.wav",
+        "sentence_id": 3,
+        "results": {
+            "record_id": 53,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU001_3.wav",
+            "analysis_results": {
+                "sentence_id": 3,
+                "reference_text": "무엇보다, 연말에 시작된 한국 영화들의 흥행 릴레이가 올초에도 계속되고 있고, 상반기에는 더 다양한 장르와 소재의 작품들이 개봉할 예정이라 극장가의 활기는 당분간 계속될 거라는 전망이 나오고 있습니다.",
+                "recognized_text": "무엇보다 연말에 시작된 한국영화들의 흥행 릴레이가 올 초에도 계속되고 있고 상반기에는 더 다양한 장르와 소재의 작품들이 개봉할 예정이라 극장가의 활기는 당분간 계속될 거라는 전망이 나오고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.7%",
+                    "speech_rate": "5.18 음절/초",
+                    "silence_ratio": "0.0%",
+                    "clarity_score": "98.85점"
+                },
+                "duration": "16.4초",
+                "total_silence_time": "0.0초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU004_4.wav",
+        "sentence_id": 4,
+        "results": {
+            "record_id": 54,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU004_4.wav",
+            "analysis_results": {
+                "sentence_id": 4,
+                "reference_text": "배우 고 김주혁 씨가 출연한 영화 `흥부`가 개봉을 앞두고 있습니다. 고인의 유작인데다, 고전소설 흥부전을 재해석한 줄거리도 기대를 모으고 있습니다. 영화 `흥부`의 배급사 측은 최근 작품의 후반 작업을 마치고 오는 설 연휴 극장 개봉을 확정했다고 밝혔습니다. 김주혁 씨는 지난해 10월 갑작스런 사고가 있기 전 두 편의 영화에서 자신의 분량을 모두 촬영해둔 상태였는데요,",
+                "recognized_text": "배우 고 김주혁 씨가 출연한 영화 흥부가 개봉을 앞두고 있습니다. 고인의 유작인데다 고전소설 흥부전을 재해석한 줄거리도 기대를 모으고 있습니다. 영화 흥부의 배급사 측은 최근 작품의 후반 작업을 마치고 오는 설 연휴 극장 개봉을 확정했다고 밝혔습니다. 김주혁 씨는 지난해 10월 갑작스런 사고가 있기 전 두 편의 영화에서 자신의 분량을 모두 촬영해 둔 상태였는데요.",
+                "metrics": {
+                    "articulation_accuracy": "96.2%",
+                    "speech_rate": "5.13 음절/초",
+                    "silence_ratio": "7.21%",
+                    "clarity_score": "96.66점"
+                },
+                "duration": "29.82초",
+                "total_silence_time": "2.15초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU004_5.wav",
+        "sentence_id": 5,
+        "results": {
+            "record_id": 55,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU004_5.wav",
+            "analysis_results": {
+                "sentence_id": 5,
+                "reference_text": "`흥부`는 그중 한 편입니다. 고전소설 흥부전을 소재로한 이 영화는 흥부전의 진짜 작가와 주인공을 밝혀내는 이야기로, 극중 김주혁 씨는 조선 후기 백성들을 돌보는 양반 `조혁` 역을 맡아 정진영, 정우 씨와 호흡을 맞췄습니다. 소식을 접한 누리꾼들은 김주혁 씨를 스크린에서 다시 보게 돼 반갑다면서도, 한편으론 고인의 빈자리가 더 크게 느껴질 것 같다며 기대와 그리움을 함께 드러내고 있습니다.",
+                "recognized_text": "흥부는 그 중 한 편입니다. 고전소설 흥부전을 소재로 한 이 영화는 흥부전의 진짜 작가와 주인공을 밝혀내는 이야기로 극중 김주혁 씨는 조선 후기 백성들을 돌보는 양반 조형 역을 맡아 정진영, 정우 씨와 호흡을 맞췄습니다. 소식을 접한 누리꾼들은 김주혁 씨를 스크린에서 다시 보게 돼 반갑다면서도 한편으론 고인의 빈자리가 더 크게 느껴질 것 같다며 기대와 그리움을 함께 드러내고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.81%",
+                    "speech_rate": "5.01 음절/초",
+                    "silence_ratio": "5.79%",
+                    "clarity_score": "96.75점"
+                },
+                "duration": "32.12초",
+                "total_silence_time": "1.86초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU006_6.wav",
+        "sentence_id": 6,
+        "results": {
+            "record_id": 56,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU006_6.wav",
+            "analysis_results": {
+                "sentence_id": 6,
+                "reference_text": "탤런트 박원숙 씨가 희귀병 중 하나인 메니에르 병을 앓고 있다고 밝혔습니다. 그러자 온라인 상에선 `메니에르 병`의 증상과, 같은 병을 앓았던 또 다른 스타들이 함께 주목받고 있습니다. 박원숙 씨는 지난 6일 오후 방송된 교양 프로그램 `같이 삽시다`에 출연해 자신이 1983년부터 30년이 넘도록 `메니에르 병`으로 투병 중이라고 털어놨습니다.",
+                "recognized_text": "탤런트 박원숙 씨가 희귀병 중 하나인 메니에르병을 앓고 있다고 밝혔습니다. 그러자 온라인상에선 메니에르병의 증상과 같은 병을 앓았던 또 다른 스타들이 함께 주목받고 있습니다. 박원숙 씨는 지난 6일 오후 방송된 교양 프로그램 같이 삽시다에 출연해 자신이 1983년부터 30년이 넘도록 메니에르병으로 투병 중이라고 털어놨습니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.27%",
+                    "speech_rate": "5.08 음절/초",
+                    "silence_ratio": "7.85%",
+                    "clarity_score": "96.07점"
+                },
+                "duration": "27.76초",
+                "total_silence_time": "2.18초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU006_7.wav",
+        "sentence_id": 7,
+        "results": {
+            "record_id": 57,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU006_7.wav",
+            "analysis_results": {
+                "sentence_id": 7,
+                "reference_text": "메니에르 병은 10만명 중 4명 꼴로 발병되는 희귀성 질환으로, 난청, 현기증, 귀울림 등의 증상을 동반하는 것으로 알려져 있는데요. 과거, 배우 한지민 유지태 씨, 가수 배일호 씨 등도 메니에르 병으로 연예 활동을 중단하거나 고통을 호소한 바 있습니다. 방송에서 박원숙 씨는 오른쪽 귀의 청력을 거의 잃어버렸다고 고백하면서도 다행히 왼쪽 귀에는 이상이 없다며 긍정적인 모습을 보여 시청자들의 격려와 응원이 잇따르고 있습니다.",
+                "recognized_text": "메니에르병은 10만 명 중 4명꼴로 발병되는 희귀성 질환으로 난청, 형기증, 귀울림 등의 증상을 동반하는 것으로 알려져 있는데요. 과거 배우 한지민, 유지태 씨, 가수 베이로 씨 등도 메니에르병으로 연애 활동을 중단하거나 고통을 호소한 바 있습니다. 방송에서 박원숙 씨는 오른쪽 귀에 청력을 거의 잃어버렸다고 고백하면서도 다행히 왼쪽 귀에는 이상이 없다며 긍정적인 모습을 보여 시청자들의 격려와 응원이 잇따르고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.03%",
+                    "speech_rate": "5.14 음절/초",
+                    "silence_ratio": "5.28%",
+                    "clarity_score": "96.46점"
+                },
+                "duration": "35.02초",
+                "total_silence_time": "1.85초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU008_8.wav",
+        "sentence_id": 8,
+        "results": {
+            "record_id": 58,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU008_8.wav",
+            "analysis_results": {
+                "sentence_id": 8,
+                "reference_text": "중견 배우 이영하 씨가 가수로서 출사표를 던졌습니다. 60대 후반의 나이지만 제 2의 인생에 도전하며 나이는 숫자에 불과하다는 걸 보여주고 있습니다. 이영하 씨는 소속사를 통해 최근 `사랑 중 이별이`라는 제목의 음반을 발표하고 본격적인 가수 활동을 시작한다고 알렸습니다.",
+                "recognized_text": "중견 배우 이영하 씨가 가수로서 출사표를 던졌습니다. 60대 후반의 나이지만 제2의 인생에 도전하며 나이는 숫자에 불과하다는 걸 보여주고 있습니다. 이영하 씨는 소속사를 통해 최근 사랑 중 이별이라는 제목의 음반을 발표하고 본격적인 가수 활동을 시작한다고 알렸습니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.29%",
+                    "speech_rate": "5.32 음절/초",
+                    "silence_ratio": "7.22%",
+                    "clarity_score": "97.7점"
+                },
+                "duration": "21.6초",
+                "total_silence_time": "1.56초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU008_9.wav",
+        "sentence_id": 9,
+        "results": {
+            "record_id": 59,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU008_9.wav",
+            "analysis_results": {
+                "sentence_id": 9,
+                "reference_text": "1977년 영화 배우로 데뷔한 이영하 씨는 데뷔 전 미 8군 부대에서 그룹사운드 멤버로 활동했을 만큼 음악에 남다른 애착을 보였다고 하는데요, 이후 100여 편의 영화와 드라마에 출연하며 배우로 전성기를 누릴 때도 가수의 꿈을 놓지 않았다고 합니다. 이영하 씨의 데뷔곡이 된 이번 노래 `사랑 중 이별이`는 잔잔한 발라드풍 가요로, 중장년층이 공감할만 한 삶의 굴곡을 노랫말에 담고 있습니다.",
+                "recognized_text": "1977년 영화배우로 데뷔한 이영아 씨는 데뷔 전 미 8군 부대에서 그룹사운드 멤버로 활동했을 만큼 음악에 남다른 애착을 보였다고 하는데요. 이후 100여 편의 영화와 드라마에 출연하며 배우로 전성기를 누릴 때도 가수의 꿈을 놓지 않았다고 합니다. 이영아 씨의 데뷔곡이 된 이번 노래 사랑 중 이별이는 잔잔한 발라드 풍가요로 중장년층이 공감할 만한 삶의 굴곡을 노랫말에 담고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.36%",
+                    "speech_rate": "5.14 음절/초",
+                    "silence_ratio": "2.7%",
+                    "clarity_score": "97.64점"
+                },
+                "duration": "31.52초",
+                "total_silence_time": "0.85초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU009_10.wav",
+        "sentence_id": 10,
+        "results": {
+            "record_id": 60,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU009_10.wav",
+            "analysis_results": {
+                "sentence_id": 10,
+                "reference_text": "박찬욱 감독의 영화 `아가씨`가 다음 달 18일 열리는 영국 아카데미 시상식에 외국어 영화상 후보로 선정됐습니다. 이 시상식은 올해 71회째를 맞는 영미권 주요 영화 행사로, 상을 주관하는 영국영화 TV 예술아카데미는 어제 공식 홈페이지에 `아가씨`를 포함한 다섯 편의 후보작을 공개했습니다.",
+                "recognized_text": "박찬욱 감독의 영화 아가씨가 다음 달 18일 열리는 영국 아카데미 시상식에 외국어 영화상 후보로 선정됐습니다. 이 시상식은 올해 71회째를 맞는 영미권 주요 영화 행사로 상을 주관하는 영국 영화 TV예술아카데미는 어제 공식 홈페이지에 아가씨를 포함한 5편의 후보작을 공개했습니다.",
+                "metrics": {
+                    "articulation_accuracy": "94.44%",
+                    "speech_rate": "5.12 음절/초",
+                    "silence_ratio": "1.28%",
+                    "clarity_score": "96.97점"
+                },
+                "duration": "23.42초",
+                "total_silence_time": "0.3초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU009_11.wav",
+        "sentence_id": 11,
+        "results": {
+            "record_id": 61,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU009_11.wav",
+            "analysis_results": {
+                "sentence_id": 11,
+                "reference_text": "한국 영화가 영국 아카데미 시상식의 주요 부문에 후보로 오른 것은 이번이 처음인데요, 박찬욱 감독의 `아가씨`는 2016년 개봉한 이래 제 69회 칸 국제영화제 경쟁부문 진출과 미국 LA 비평가협회 외국어 영화상 수상 등 국제 무대에서 꾸준한 관심과 성과를 이어온 바 있어 또 한 번의 수상 가능성도 점쳐지고 있습니다.",
+                "recognized_text": "한국영화가 영국 아카데미 시상식의 주요 부문에 후보로 오른 것은 이번이 처음인데요. 박찬욱 감독의 아가씨는 2016년 개봉한 이래 제69회 칸 국제영화제 경쟁 부문 진출과 미국 LA 비평가협회 외국어 영화상 수상 등 국제무대에서 꾸준한 관심과 성과를 이어온 바 있어 또 한 번의 수상 가능성도 점쳐지고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.74%",
+                    "speech_rate": "5.03 음절/초",
+                    "silence_ratio": "4.26%",
+                    "clarity_score": "98.02점"
+                },
+                "duration": "26.04초",
+                "total_silence_time": "1.11초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSCU009_12.wav",
+        "sentence_id": 12,
+        "results": {
+            "record_id": 62,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU009_12.wav",
+            "analysis_results": {
+                "sentence_id": 12,
+                "reference_text": "한편, 박찬욱 감독은 최근 영국 BBC 방송의 TV 드라마 연출을 맡아 올초 촬영을 시작할 것으로 알려져, 이번 시상식 진출과 함께 현지에서의 입지도 더욱 공고해질 것으로 전망됩니다.",
+                "recognized_text": "한편 박찬욱 감독은 최근 영국 BBC 방송의 TV 드라마 연출을 맡아 올초 촬영을 시작할 것으로 알려져 이번 시상식 진출과 함께 현지에서의 입지도 더욱 공고해질 것으로 전망됩니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.4%",
+                    "speech_rate": "5.13 음절/초",
+                    "silence_ratio": "0.0%",
+                    "clarity_score": "98.7점"
+                },
+                "duration": "14.62초",
+                "total_silence_time": "0.0초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN034_13.wav",
+        "sentence_id": 13,
+        "results": {
+            "record_id": 63,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN034_13.wav",
+            "analysis_results": {
+                "sentence_id": 13,
+                "reference_text": "스위스 연방 정부가 새로운 전자 투표 시스템 성능을 시험하기 위해 해킹 대회를 열었습니다. 2월 마지막 주에 시작된 이번 대회는 약 한 달간 계속되는데요. 이 기간 동안 도전자들은 전자 투표 시스템을 합법적으로 공격할 수 있습니다. 전 세계 약 2,400명의 IT 보안전문가와 해커들이 도전했는데요.",
+                "recognized_text": "스위스 연방정부가 새로운 전자투표 시스템 성능을 시험하기 위해 해킹 대회를 열었습니다. 2월 마지막 주에 시작된 이번 대회는 약 한 달간 계속되는데요. 이 기간 동안 도전자들은 전자투표 시스템을 합법적으로 공격할 수 있습니다. 전 세계 약 2,400명의 IT 보안 전문가와 해커들이 도전했는데요",
+                "metrics": {
+                    "articulation_accuracy": "99.21%",
+                    "speech_rate": "4.02 음절/초",
+                    "silence_ratio": "27.35%",
+                    "clarity_score": "94.13점"
+                },
+                "duration": "31.12초",
+                "total_silence_time": "8.51초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN034_14.wav",
+        "sentence_id": 14,
+        "results": {
+            "record_id": 64,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN034_14.wav",
+            "analysis_results": {
+                "sentence_id": 14,
+                "reference_text": "전자 투표 시스템 취약점을 찾고 보안 강화를 위해 마련된 이 대회에는 총 15만스위스 프랑, 우리 돈 1억 6천만 원의 상금도 걸려있습니다. 스위스 정부는 특히 투표 수 조작에 성공한 사람은 최고 수준의 해킹으로 인정하고, 우리 돈 약 5,600만원의 상금을 준다고 밝혔습니다.",
+                "recognized_text": "전자투표 시스템 취약점을 찾고 보안 강화를 위해 마련된 이 대회에는 총 15만 스위스 프랑, 우리 돈 1억 6천만 원의 상금도 걸려 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "50.0%",
+                    "speech_rate": "5.63 음절/초",
+                    "silence_ratio": "0.97%",
+                    "clarity_score": "74.81점"
+                },
+                "duration": "10.3초",
+                "total_silence_time": "0.1초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN035_15.wav",
+        "sentence_id": 15,
+        "results": {
+            "record_id": 65,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN035_15.wav",
+            "analysis_results": {
+                "sentence_id": 15,
+                "reference_text": "곳곳에서 봄소식이 들려오고 있지만 신장 이리 지역은 아직 흰 눈으로 뒤덮여 있습니다. 끝이 보이지 않는 설원 위를 말 무리가 한꺼번에 달리는 모습이 장관을 연출하고 있습니다. 수를 셀 수 없을 만큼 많은 수의 말이 드넓은 눈밭을 내달립니다. 설원과 말무리가 만들어낸 장관에 관광객들은 카메라 셔터를 눌러대며 흥분을 감추지 못하는데요.",
+                "recognized_text": "곳곳에서 봄 소식이 들려오고 있지만 신장 이리 지역은 아직 흰눈으로 뒤덮여 있습니다. 끝이 보이지 않는 설원 위를 말무리가 한꺼번에 달리는 모습이 장관을 연출하고 있습니다. 수를 셀 수 없을 만큼 많은 수의 말이 드넓은 눈밭을 내달립니다. 설원과 말무리가 만들어낸 장관에 관광객들은 카메라 셔터를 눌러대며 흥분을 감추지 못하는데요",
+                "metrics": {
+                    "articulation_accuracy": "99.29%",
+                    "speech_rate": "4.26 음절/초",
+                    "silence_ratio": "26.27%",
+                    "clarity_score": "94.39점"
+                },
+                "duration": "32.66초",
+                "total_silence_time": "8.58초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN035_16.wav",
+        "sentence_id": 16,
+        "results": {
+            "record_id": 66,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN035_16.wav",
+            "analysis_results": {
+                "sentence_id": 16,
+                "reference_text": "신장 이리 지역의 말은 품종이 우수하기로 유명합니다. 현지 유목민들은 매년 겨울, 말의 체력 단련을 위해 사육장에 갇혀 있던 말을 눈밭에 풀어 놓고 마음껏 달리게 하는데요. 현지 정부는 목축 농가들이 한꺼번에 말을 풀어놓게 해 지역의 특별한 관광 상품으로 육성하고 있습니다.",
+                "recognized_text": "신장 1위 지역의 말은 품종이 우수하기로 유명합니다. 현지 유목민들은 매년 겨울 말의 체력 단련을 위해 사육장에 갇혀있던 말을 눈밭에 풀어놓고 마음껏 달리게 하는데요. 현지 정부는 목축 농가들이 한꺼번에 말을 풀어놓게 해 지역의 특별한 관광 상품으로 육성하고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.39%",
+                    "speech_rate": "4.6 음절/초",
+                    "silence_ratio": "20.16%",
+                    "clarity_score": "94.66점"
+                },
+                "duration": "24.8초",
+                "total_silence_time": "5.0초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN036_17.wav",
+        "sentence_id": 17,
+        "results": {
+            "record_id": 67,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN036_17.wav",
+            "analysis_results": {
+                "sentence_id": 17,
+                "reference_text": "일본에는 92살의 여성 현역 프로바둑기사가 있습니다. 스기우치 가즈코 8단인데요. 바둑 여류 타이틀 가운데서 서열이 가장 높은 `여류본인방전` 본선에 진출했습니다. 여류 본인방전 본선 토너먼트 대국을 앞두고 웃음을 보이는 `스기우치` 8단.",
+                "recognized_text": "일본에는 92살의 여성 현역 프로 바둑기사가 있습니다. 스기우치 가지코 8단인데요. 바둑 여류 타이틀 가운데서 서열이 가장 높은 여류 본인방전 본선에 진출했습니다. 여류 본인방전 본선 토너먼트 대국을 앞두고 웃음을 보이는 스기우치 8단.",
+                "metrics": {
+                    "articulation_accuracy": "95.28%",
+                    "speech_rate": "3.74 음절/초",
+                    "silence_ratio": "31.64%",
+                    "clarity_score": "86.03점"
+                },
+                "duration": "27.24초",
+                "total_silence_time": "8.62초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN036_18.wav",
+        "sentence_id": 18,
+        "results": {
+            "record_id": 68,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN036_18.wav",
+            "analysis_results": {
+                "sentence_id": 18,
+                "reference_text": "상대는 50살이나 어린, 오사와 나루미 4단입니다. 스기우치 8단이 태어난 것은 1927년. 도쿄에서는, 일본에서 처음으로 지하철이 개통된 해이고, 세계 공황이 시작되기 2년전의 해이기도 합니다. 그 후 15살 때 프로에 입단했는데요.",
+                "recognized_text": "상대는 50살이나 어린 오사와 나루미 사단입니다. 스규치 8단이 태어난 것은 1927년. 도쿄에서는 일본에서 처음으로 지하철이 개통된 해이고, 세계공항이 시작되기 2년 전의 해이기도 합니다. 그 후 15살 때 프로에 입단했는데요.",
+                "metrics": {
+                    "articulation_accuracy": "94.17%",
+                    "speech_rate": "3.97 음절/초",
+                    "silence_ratio": "30.2%",
+                    "clarity_score": "86.46점"
+                },
+                "duration": "25.2초",
+                "total_silence_time": "7.61초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN036_19.wav",
+        "sentence_id": 19,
+        "results": {
+            "record_id": 69,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN036_19.wav",
+            "analysis_results": {
+                "sentence_id": 19,
+                "reference_text": "여동생 2명도 프로 바둑기사고, 남편도 프로 기사입니다. 남편은 재작년, 97살로 숨질 때까지 현역으로 활동했습니다. 스기우치 8단이 70여년 동안 프로 생활을 하면서 쌓아올린 승리는 629승. 일본 기원 여류기사로는 사상 최다 타이 기록입니다.",
+                "recognized_text": "여동생 두 명도 프로 바둑기사고 남편도 프로기사입니다. 남편은 재작년 97살로 숨질 때까지 현역으로 활동했습니다. 스기우치 8단이 70여 년 동안 프로 생활을 하면서 쌓아올린 승리는 629승. 일본 기원 여류기사로는 사상 최다 타이 기록입니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.2%",
+                    "speech_rate": "3.99 음절/초",
+                    "silence_ratio": "30.37%",
+                    "clarity_score": "87.99점"
+                },
+                "duration": "26.34초",
+                "total_silence_time": "8.0초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN037_20.wav",
+        "sentence_id": 20,
+        "results": {
+            "record_id": 70,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN037_20.wav",
+            "analysis_results": {
+                "sentence_id": 20,
+                "reference_text": "러시아 나홋카 항 인근에 위치한 이곳은 이른바 고래 감옥으로 불리는 곳입니다. 약 90마리나 되는 흰고래 벨루가와 11마리의 범고래들이 해상 가두리 속에 갇혀 있습니다. 최근 러시아 정부는 가두리에 갇힌 고래들을 풀어줄 것을 명령했습니다. 5년째 운영 중인 이 고래 감옥 운영자들은 오호츠크 해역에서 고래들을 잡아와 국내외 수족관에 보내왔습니다.",
+                "recognized_text": "러시아 나호카항 인근에 위치한 이곳은 이른바 고래 감옥으로 불리는 곳입니다. 약 90마리나 되는 흰고래 벨루가와 11마리의 범고래들이 해상 가두리 속에 갇혀 있습니다. 최근 러시아 정부는 가두리에 갇힌 고래들을 풀어줄 것을 명령했습니다. 있습니다. 5년째 운영중인 이 고래감옥 운영자 들은 오후츠크 해역에서 고래들을 잡아와 국내외 수족관에 보내 왔습니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.27%",
+                    "speech_rate": "4.77 음절/초",
+                    "silence_ratio": "23.61%",
+                    "clarity_score": "92.91점"
+                },
+                "duration": "32.1초",
+                "total_silence_time": "7.58초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN037_21.wav",
+        "sentence_id": 21,
+        "results": {
+            "record_id": 71,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN037_21.wav",
+            "analysis_results": {
+                "sentence_id": 21,
+                "reference_text": "그동안 러시아 법은 기업가가 동물을 포획하고 해외로 보내는 것을 허가했지만, 작년부터 법이 바뀌었습니다. 조사결과 이곳의 일부 벨루가와 범고래들은 아직 1살이 채 안 된 어린 고래들이었는데요. 러시아에서 어린 고래의 포획은 엄격히 금지돼 있어서, 최고 5년 형에 처해질 수 있습니다.",
+                "recognized_text": "그동안 러시아법은 기업가가 동물을 포획하고 해외로 보내는 것을 허가했지만 작년부터 법이 바뀌었습니다. 조사 결과 이곳의 일부 벨루가와 범고래들은 아직 한 살이 채 안 된 어린 고래들이었는데요. 러시아에서 어린 고래의 포획은 엄격히 금지되어 있어서 최고 5년형에 처해질 수 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.87%",
+                    "speech_rate": "4.69 음절/초",
+                    "silence_ratio": "21.17%",
+                    "clarity_score": "93.7점"
+                },
+                "duration": "25.6초",
+                "total_silence_time": "5.42초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN038_22.wav",
+        "sentence_id": 22,
+        "results": {
+            "record_id": 72,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_22.wav",
+            "analysis_results": {
+                "sentence_id": 22,
+                "reference_text": "미국이 해외에 주둔하는 미군의 비용 전부에 50% 할증까지 동맹국에 요구할 것이라는 언론 보도가 최근 나왔었는데, 섀녀핸 미 국방장관 대행이 사실이 아니라고 부인했습니다. 해당 보도가 나오자 미국 안에서 먼저 강한 반발 기류가 흘러 나오기도 했습니다. 해외 주둔 미군은 약 19만 9천여 명.",
+                "recognized_text": "미국이 해외에 주둔하는 미국의 비용 전부의 50% 할증까지 동맹국에 요구할 것이라는 언론 보도가 최근 나왔었는데, 쉐년 헨 미 국방장관 대행이 사실이 아니라고 부인했습니다. 해당 보도가 나오자 미국 안에서 먼저 강한 반발기류가 흘러나오기도 했습니다. 해외 주둔 미군은 약 19만 9천여 명.",
+                "metrics": {
+                    "articulation_accuracy": "95.93%",
+                    "speech_rate": "4.54 음절/초",
+                    "silence_ratio": "20.09%",
+                    "clarity_score": "93.95점"
+                },
+                "duration": "27.08초",
+                "total_silence_time": "5.44초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN038_23.wav",
+        "sentence_id": 23,
+        "results": {
+            "record_id": 73,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_23.wav",
+            "analysis_results": {
+                "sentence_id": 23,
+                "reference_text": "전체 미군 병력 213만 3천여 명의 10% 에 육박합니다. 미국 정부는 주둔국과 협상을 통해 미군 주둔 비용을 나눠서 부담하고 있습니다. 워싱턴포스트, 블룸버그 등은 최근 미국 정부가 이른바 `주둔 비용 +50` 방안을 검토하고 있다고 보도했습니다. 주둔 비용 전부에다 50% 할증된 금액을 더해 주둔국에 요구할거라는 내용입니다.",
+                "recognized_text": "전체 미군 병력 213만 3천여 명의 10%에 육박합니다. 미국 정부는 주둔국과 협상을 통해 미군 주둔 비용을 나눠서 부담하고 있습니다. 워싱턴포스트, 블룸버그 등은 최근 미국 정부가 이른바 주둔 비용 플러스 50 방안을 검토하고 있다고 보도했습니다. 주둔 비용 전부에다 50% 할증된 금액을 더해 주둔국에 요구할 거라는 내용입니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.48%",
+                    "speech_rate": "4.51 음절/초",
+                    "silence_ratio": "24.37%",
+                    "clarity_score": "93.37점"
+                },
+                "duration": "31.52초",
+                "total_silence_time": "7.68초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN038_24.wav",
+        "sentence_id": 24,
+        "results": {
+            "record_id": 74,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_24.wav",
+            "analysis_results": {
+                "sentence_id": 24,
+                "reference_text": "보도가 사실이라면 올해 주한미군 방위비 분담금으로 1조 389억원을 내고, 내년 비용 협상을 다시 시작해야 하는 우리로서는 큰 부담입니다. 하지만 섀너핸 미 국방장관 대행은 미 상원 군사위 청문회에서 `주둔 비용 +50` 은 잘못된 보도라고 밝혔습니다. 섀너핸 국방장관 대행은 다만, 미군 주둔 비용의 공평한 분담 원칙을 강조했습니다.",
+                "recognized_text": "보도가 사실이라면 올해 주한미군 방위비 부담금으로 1조 389억 원을 내고 내년 비용 협상을 다시 시작해야 하는 우리로서는 큰 부담입니다. 하지만 쉐넌헨 미 국방장관 대행은 미 상원 군사위 청문회에서 주둔 비용 플러스 50은 잘못된 보도라고 밝혔습니다. 쉐넌 헨 국방장관 대행은 다만 미군 주둔 비용의 공평한 분담 원칙을 강조했습니다",
+                "metrics": {
+                    "articulation_accuracy": "89.51%",
+                    "speech_rate": "4.54 음절/초",
+                    "silence_ratio": "14.19%",
+                    "clarity_score": "91.92점"
+                },
+                "duration": "30.86초",
+                "total_silence_time": "4.38초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK014_SPK014KBSIN038_25.wav",
+        "sentence_id": 25,
+        "results": {
+            "record_id": 75,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_25.wav",
+            "analysis_results": {
+                "sentence_id": 25,
+                "reference_text": "앞서 `주둔 비용 +50` 보도가 나오자 미국 내에서 먼저 미군은 용병이 아니라는 비판이 제기됐습니다. 월스트리트저널은, 동맹은 부동산 거래가 아니며 미국의 외교정책을 훼손할 수 있다고 비판하는 사설을 실었습니다. 섀너핸 장관 대행은 올해 한미연합훈련이 재설계됐다며 이달 말 정경두 국방장관과 만나 한미연합훈련의 진행 경과와 결과를 논의할 계획이라고 밝혔습니다.",
+                "recognized_text": "앞서 주둔 비용 플러스 50 보도가 나오자 미국 내에서 먼저 미군은 용병이 아니라는 비판이 제기됐습니다. 월스트리트 저널은 동맹은 부동산 거래가 아니며 미국의 외교 정책을 훼손할 수 있다고 비판하는 사설을 실었습니다. 샤넨헨 장관대행은 올해 한미연합훈련이 재설계됐다며 이달 말 정경두 국방장관과 만나 한미연합훈련의 진행 경과와 결과를 논의할 계획이라고 밝혔습니다.",
+                "metrics": {
+                    "articulation_accuracy": "94.3%",
+                    "speech_rate": "4.85 음절/초",
+                    "silence_ratio": "14.94%",
+                    "clarity_score": "94.16점"
+                },
+                "duration": "32.4초",
+                "total_silence_time": "4.84초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC002_26.wav",
+        "sentence_id": 26,
+        "results": {
+            "record_id": 76,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_26.wav",
+            "analysis_results": {
+                "sentence_id": 26,
+                "reference_text": "지난해 우리 수출실적이 613조원으로 사상 최고를 기록하면서 세계 6위로 올라섰습니다. 1년 동안 16% 에 가까운 성장률로, 반도체와 석유화학 등이 수출을 주도했습니다. 하지만 이 같은 눈부신 실적에도 좋아할 수만은 없습니다. 편중된 종목의 부진이 예상되는 데다 부실한 구조조정과 원화 가치 상승 그리고 기업활력 저하 등으로 연초부터 먹구름이 끼고 있기 때문입니다.",
+                "recognized_text": "지난해 우리 수출 실적이 613조 원으로 사상 최고를 기록하면서 세계 6위로 올라섰습니다. 1년 동안 16%에 가까운 성장률로 반도체와 석유화학 등이 수출을 주도했습니다. 하지만 이 같은 눈부신 실적에도 좋아할 수만은 없습니다. 편중된 종목의 부진이 예상되는 데다 부실한 구조조정과 원화 가치 상승 그리고 기업 활력 저하 등으로 연초부터 먹구름이 끼고 있기 때문입니다.",
+                "metrics": {
+                    "articulation_accuracy": "99.37%",
+                    "speech_rate": "5.37 음절/초",
+                    "silence_ratio": "4.99%",
+                    "clarity_score": "98.69점"
+                },
+                "duration": "29.26초",
+                "total_silence_time": "1.46초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC002_27.wav",
+        "sentence_id": 27,
+        "results": {
+            "record_id": 77,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_27.wav",
+            "analysis_results": {
+                "sentence_id": 27,
+                "reference_text": "지난해 수출에서 반도체가 차지한 비중은 17% 로 쏠림현상이 심했습니다. 당장은 아니더라도 공급과잉과 중국 업체의 추격 등으로 올해는 낙관이 힘든 상황입니다. 미국의 통상압력까지 더해질 우려도 있습니다. 여기에다 원화 강세와 고금리, 유가상승 등의 `신 3고` 현상도 심화되고 있어 수출에 그림자를 드리우고 있습니다.",
+                "recognized_text": "지난해 수출에서 반도체가 차지한 비중은 17%로 쏠림 현상이 심했습니다. 당장은 아니더라도 공급 과잉과 중국 업체 추격 등으로 올해는 낙관이 힘든 상황입니다. 미국의 통상 압력까지 더해질 우려도 있습니다. 여기에다 원화 강세와 고금리, 유가 상승 등의 신 삼고 현상도 심화되고 있어 수출에 그림자를 드리우고 있습니다. 기상캐스터 배혜지",
+                "metrics": {
+                    "articulation_accuracy": "91.3%",
+                    "speech_rate": "5.43 음절/초",
+                    "silence_ratio": "5.17%",
+                    "clarity_score": "94.62점"
+                },
+                "duration": "26.32초",
+                "total_silence_time": "1.36초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC002_28.wav",
+        "sentence_id": 28,
+        "results": {
+            "record_id": 78,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_28.wav",
+            "analysis_results": {
+                "sentence_id": 28,
+                "reference_text": "수출에 직격탄이 될 수 있는 환율은 1,060원대까지 떨어져 3년 만에 최고 수준이고 당분간 원고 현상은 이어질 전망입니다. 이에 따라 올해 수출증가율은 지난해의 1/4정도인 4% 선에 그칠 것으로 예상되고 있습니다. 혁신성장의 주축이 돼야 할 4차 산업은 청사진은 나와있지만 앞서가는 나라들에 비해서는 한참 뒤처져 있습니다.",
+                "recognized_text": "수출의 직격탄이 될 수 있는 환율은 1060원대까지 떨어져 3년 만에 최고 수준이고 당분간 원고 현상은 이어질 전망입니다. 이에 따라 올해 수출 증가율은 지난해의 4분의 1 정도인 4%선에 그칠 것으로 예상되고 있습니다. 혁신성장의 주축이 돼야 할 4차 산업은 청사지는 나와 있지만 앞서가는 나라들에 비해서는 한참 뒤처져 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "94.29%",
+                    "speech_rate": "5.25 음절/초",
+                    "silence_ratio": "3.15%",
+                    "clarity_score": "96.51점"
+                },
+                "duration": "26.68초",
+                "total_silence_time": "0.84초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC002_29.wav",
+        "sentence_id": 29,
+        "results": {
+            "record_id": 79,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_29.wav",
+            "analysis_results": {
+                "sentence_id": 29,
+                "reference_text": "내수도 걱정입니다. 최저임금이 오르면서 연초부터 소규모 자영업자들은 오히려 채용을 꺼립니다. 최저임금 위원장조차 그 부작용을 인정하며 인상률 조정의 필요성을 제기했습니다. 새로운 정책들이 오히려 일자리 창출에 역행하고 있다는 지적이 나오고 있습니다.",
+                "recognized_text": "내수도 걱정입니다. 최저임금이 오르면서 연초부터 소규모 자영업자들은 오히려 채용을 꺼립니다. 최저임금 유연장조차 그 부작용을 인정하며 인상률 조정의 필요성을 제기했습니다. 새로운 정책들이 오히려 일자리 창출에 역행하고 있다는 지적이 나오고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.2%",
+                    "speech_rate": "5.66 음절/초",
+                    "silence_ratio": "5.51%",
+                    "clarity_score": "98.0점"
+                },
+                "duration": "19.6초",
+                "total_silence_time": "1.08초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC002_30.wav",
+        "sentence_id": 30,
+        "results": {
+            "record_id": 80,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_30.wav",
+            "analysis_results": {
+                "sentence_id": 30,
+                "reference_text": "재계는 무엇보다도 기업에 활력을 불어넣는데 힘써 줄 것을 공개적으로 호소하고 있습니다. 다행히 올해도 3% 내외의 성장으로 거의 10년 만에 국민소득 3만달러 시대의 개막이 기대되고 있습니다. 그러나 스페인처럼 3만달러를 넘으면서 다시 추락한 나라들도 적지 않습니다. 반면교사로 삼아야 합니다.",
+                "recognized_text": "재계는 무엇보다도 기업에 활력을 불어넣는 데 힘써 줄 것을 공개적으로 호소하고 있습니다. 다행히 올해도 3% 내외의 성장으로 거의 10년 만에 국민소득 3만 달러 시대의 개막이 기대되고 있습니다. 그러나 스페인처럼 3만 달러를 넘으면서 다시 추락한 나라들도 적지 않습니다. 반면교사로 삼아야 합니다.",
+                "metrics": {
+                    "articulation_accuracy": "100.0%",
+                    "speech_rate": "5.86 음절/초",
+                    "silence_ratio": "5.4%",
+                    "clarity_score": "98.92점"
+                },
+                "duration": "21.86초",
+                "total_silence_time": "1.18초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC002_31.wav",
+        "sentence_id": 31,
+        "results": {
+            "record_id": 81,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_31.wav",
+            "analysis_results": {
+                "sentence_id": 31,
+                "reference_text": "KBS 의 신년 여론조사에서도 올해 가장 중요한 가치로 응답자의 30% 가 `경제성장`을 꼽아 가장 많았습니다. 각종 규제 완화와 구조개혁 그리고 성장동력 창출에 역점을 두고 올 한 해 고비를 잘 넘겨야 하겠습니다.",
+                "recognized_text": "KBS의 신년 여론조사에서도 올해 가장 중요한 가치로 응답자의 30%가 경제성장을 꼽아 가장 많았습니다. 각종 규제 완화와 구조개혁 그리고 성장 동력 창출의 역점을 두고 올 한해 고비를 잘 넘겨야 하겠습니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.67%",
+                    "speech_rate": "4.93 음절/초",
+                    "silence_ratio": "1.68%",
+                    "clarity_score": "98.0점"
+                },
+                "duration": "17.86초",
+                "total_silence_time": "0.3초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC004_32.wav",
+        "sentence_id": 32,
+        "results": {
+            "record_id": 82,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_32.wav",
+            "analysis_results": {
+                "sentence_id": 32,
+                "reference_text": "서울 등 전국 40곳의 조정대상지역에서 다주택자가 집을 팔 경우 양도 차익에 대해 더 많은 세금을 내야합니다. 4월부터 시행될 예정인데, 예외조항도 정해졌습니다. 양도 차익의 최고 62% 를 세금으로 내야 하는 다주택자 양도소득 중과가 입법예고됐습니다. 기획재정부는 관련 세법 시행령 개정안이 차관회의와 국무회의를 거쳐 이르면 다음 달부터 시행된다고 밝혔습니다.",
+                "recognized_text": "서울 등 전국 40곳의 조정 대상 지역에서 다주택자가 집을 팔 경우 양도 차익에 대해 더 많은 세금을 내야 합니다. 4월부터 시행될 예정인데 예외 조항도 정해졌습니다. 양도 차익의 최고 62%를 세금으로 내야 하는 다주택자 양도소득 중과가 입법 예고됐습니다. 기획재정부는 관련 세법 시행령 개정안이 차관회의와 국무회의를 거쳐 이르면 다음 달부터 시행된다고 밝혔습니다.",
+                "metrics": {
+                    "articulation_accuracy": "99.36%",
+                    "speech_rate": "4.84 음절/초",
+                    "silence_ratio": "2.61%",
+                    "clarity_score": "99.16점"
+                },
+                "duration": "32.2초",
+                "total_silence_time": "0.84초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC004_33.wav",
+        "sentence_id": 33,
+        "results": {
+            "record_id": 83,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_33.wav",
+            "analysis_results": {
+                "sentence_id": 33,
+                "reference_text": "개정안이 시행되면 오는 4월부터 서울 전역과 경기 과천, 부산 해운대 등 전국 40곳의 조정대상지역에서 집을 파는 다주택자는 양도소득세를 더 내야 합니다. 보유 기간 등에 따라 6에서 42% 인 기본 양도소득세율에 2주택자는 10% 포인트, 3주택 이상 보유자는 20% 포인트의 세율이 추가됩니다.",
+                "recognized_text": "개정안이 시행되면 오는 4월부터 서울 전역과 경기과천, 부산 해운대 등 전국 40곳의 조정 대상 지역에서 집을 파는 다주택자는 양도소득세를 더 내야 합니다. 보유기간 등에 따라 6에서 42%인 기본 양도소득세율은 2주택자는 10%포인트, 3주택 이상 보유자는 20%포인트의 세율이 추가됩니다.",
+                "metrics": {
+                    "articulation_accuracy": "99.21%",
+                    "speech_rate": "4.78 음절/초",
+                    "silence_ratio": "2.86%",
+                    "clarity_score": "99.03점"
+                },
+                "duration": "26.56초",
+                "total_silence_time": "0.76초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC004_34.wav",
+        "sentence_id": 34,
+        "results": {
+            "record_id": 84,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_34.wav",
+            "analysis_results": {
+                "sentence_id": 34,
+                "reference_text": "다만, 2주택 보유자가 취학, 근무상 형편, 질병 요양 등으로 수도권 이외 조정대상지역에서 산 집을 팔 경우 양도세 중과에서 제외됩니다. 단, 3억원 이하 주택에 취득 후 1년 이상 거주하고, 근무상 형편 등 2주택 보유 사유가 없어진 다음 3년 이내에 팔아야 합니다.",
+                "recognized_text": "다만 2주택 보유자가 취학, 근무상 형편, 질병 요양 등으로 수도권 이외 조정 대상 지역에서 산집을 팔 경우 양도세 중과에서 제외됩니다. 단, 3억 원 이하 주택에 취득 후 1년 이상 거주하고 근무상 형편 등 2주택 보유 사유가 없어진 다음 3년 이내에 팔아야 합니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.2%",
+                    "speech_rate": "4.61 음절/초",
+                    "silence_ratio": "3.47%",
+                    "clarity_score": "98.41점"
+                },
+                "duration": "23.66초",
+                "total_silence_time": "0.82초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSEC004_35.wav",
+        "sentence_id": 35,
+        "results": {
+            "record_id": 85,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_35.wav",
+            "analysis_results": {
+                "sentence_id": 35,
+                "reference_text": "결혼으로 집을 합친지 5년 이내, 부모를 모시기 위해 집을 합친지 10년 안에 파는 주택도 예외에 해당하고, 일시적 2주택자가 기존 집을 파는 경우도 마찬가집니다. 3주택 보유자는 상속받은 주택을 5년 안에 팔 때, 임대주택으로 등록해 8년 이상 임대한 다음 팔 경우 등에 한해 양도세 중과가 적용되지 않습니다.",
+                "recognized_text": "결혼으로 집을 합친 지 5년 이내, 부모를 모시기 위해 집을 합친 지 10년 안에 파는 주택도 예외에 해당하고, 일시적 2주택자가 기존 집을 파는 경우도 마찬가지입니다. 3주택 보유자는 상속받을 주택을 5년 안에 팔 때 임대주택으로 등록해 8년 이상 임대한 다음 팔 경우 등에 한해 양도세 중과가 적용되지 않습니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.92%",
+                    "speech_rate": "5.24 음절/초",
+                    "silence_ratio": "3.63%",
+                    "clarity_score": "97.74점"
+                },
+                "duration": "24.82초",
+                "total_silence_time": "0.9초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN001_36.wav",
+        "sentence_id": 36,
+        "results": {
+            "record_id": 86,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN001_36.wav",
+            "analysis_results": {
+                "sentence_id": 36,
+                "reference_text": "태국의 인기 있는 새해 선물 중 하나는 술입니다. 가볍게 한두 잔 주고받는 것도 나쁘지 않지만, 이로 인해 새해부터 치명적인 도로 사고나 가정 폭력 등과 같은 사회 문제도 끊이지 않고 있습니다. 이에 보건 당국과 금주 운동가들이 2008년부터 금주 캠페인을 벌이고 있습니다.",
+                "recognized_text": "태국의 인기 있는 새해 선물 중 하나는 술입니다. 가볍게 한두 잔 주고받는 것도 나쁘지 않지만 이로 인해 새해부터 치명적인 도로사고나 가정폭력 등과 같은 사회 문제도 끊이지 않고 있습니다. 이에 보건당국과 금주 운동가들이 2008년부터 금주 캠페인을 벌이고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "99.12%",
+                    "speech_rate": "5.21 음절/초",
+                    "silence_ratio": "4.75%",
+                    "clarity_score": "98.61점"
+                },
+                "duration": "21.7초",
+                "total_silence_time": "1.03초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN001_37.wav",
+        "sentence_id": 37,
+        "results": {
+            "record_id": 87,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN001_37.wav",
+            "analysis_results": {
+                "sentence_id": 37,
+                "reference_text": "사람들이 많이 지나다니는 곳에서 지나친 알코올 소비에 따른 부작용을 연극으로 재연하고, 공개 세미나를 진행하고, 홍보 전단지를 나눠주는 등 방법도 다양합니다. 이런 노력의 결과가 나타나고 있습니다. 캠페인이 실시되기 전에는 새해를 전후해 술을 선물 받은 사람이 30.5% 나 됐지만, 이제는 9% 에 그치고 있습니다.",
+                "recognized_text": "사람들이 많이 지나다니는 곳에서 지나친 알코올 소비에 따른 부작용을 연극으로 재현하고 공개 세미나를 진행하고 홍보 전단지를 나눠주는 등 방법도 다양합니다. 이런 노력의 결과가 나타나고 있습니다. 캠페인이 실시되기 전에는 새해를 전후해 술을 선물 받는 사람이 30.5%나 됐지만 이제는 9%에 그치고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.32%",
+                    "speech_rate": "5.28 음절/초",
+                    "silence_ratio": "3.53%",
+                    "clarity_score": "97.46점"
+                },
+                "duration": "25.2초",
+                "total_silence_time": "0.89초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN001_38.wav",
+        "sentence_id": 38,
+        "results": {
+            "record_id": 88,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN001_38.wav",
+            "analysis_results": {
+                "sentence_id": 38,
+                "reference_text": "태국에서는 2017년 하루 평균 60여 명이 도로에서 목숨을 잃었는데, 그중 30% 가 음주 운전이 원인입니다. 또 연말연시에는 술 때문에 사망자 수가 더욱 급증하는 것으로 나타났습니다.",
+                "recognized_text": "태국에서는 2017년 하루 평균 60여 명이 도로에서 목숨을 잃었는데 그중 30%가 음주운전이 원인입니다. 또 연말연시에는 술 때문에 사망자 수가 더욱 급증하는 것으로 나타났습니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.75%",
+                    "speech_rate": "5.08 음절/초",
+                    "silence_ratio": "1.42%",
+                    "clarity_score": "99.09점"
+                },
+                "duration": "15.54초",
+                "total_silence_time": "0.22초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN005_39.wav",
+        "sentence_id": 39,
+        "results": {
+            "record_id": 89,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_39.wav",
+            "analysis_results": {
+                "sentence_id": 39,
+                "reference_text": "중국 당국이 오늘부터 대북한 철강 수출을 전면금지하고, 원유와 정유 제품 수출을 제한한다고 발표했습니다. 최근 북중간 유류 밀수출 의혹이 불거진 가운데, 중국은 거듭 안보리 결의의 철저한 이행을 과시하고 있습니다. 중국 상무부와 세관당국이 어젯밤 공고를 통해 철강과 기계류, 수송차량 등에 대한 대북 수출을 전면 금지했습니다.",
+                "recognized_text": "중국당국이 오늘부터 대북한 철강 수출을 전면 금지하고 원유와 정유제품 수출을 제한한다고 발표했습니다. 최근 북중 간 유류 밀수출 의혹이 불거진 가운데 중국은 거듭 안보리 결의에 철저한 이행을 과시하고 있습니다. 중국 상무부와 세관당국이 어젯밤 공고를 통해 철강과 기계류, 수송 차량 등에 대한 대북 수출을 전면 금지했습니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.86%",
+                    "speech_rate": "5.09 음절/초",
+                    "silence_ratio": "4.65%",
+                    "clarity_score": "98.0점"
+                },
+                "duration": "27.1초",
+                "total_silence_time": "1.26초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN005_40.wav",
+        "sentence_id": 40,
+        "results": {
+            "record_id": 90,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_40.wav",
+            "analysis_results": {
+                "sentence_id": 40,
+                "reference_text": "유엔 안보리 결의 2397호의 이행 차원이라는 설명과 함께 오늘부터 시행한다고 밝혔습니다. 또, 원유 대북수출은 연간 52만 5천톤, 정유제품 수출은 연간 6만톤을 넘지 못한다고 명시했습니다. 정유제품의 경우, 이미 한도에 근접했다며, 올해 정유제품 수출을 잠정중단한다고 밝혔습니다.",
+                "recognized_text": "유엔 안보리 결의 2397호의 이행 차원이라는 설명과 함께 오늘부터 시행한다고 밝혔습니다. 또 원유 대북 수출은 연간 52만 5천 톤, 정유제품 수출은 연간 6만 톤을 넘지 못한다고 명시했습니다. 정유제품의 경우 이미 한도에 근접했다며 올해 정유제품 수출을 잠정 중단한다고 밝혔습니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.6%",
+                    "speech_rate": "5.0 음절/초",
+                    "silence_ratio": "3.61%",
+                    "clarity_score": "98.08점"
+                },
+                "duration": "24.38초",
+                "total_silence_time": "0.88초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN005_41.wav",
+        "sentence_id": 41,
+        "results": {
+            "record_id": 91,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_41.wav",
+            "analysis_results": {
+                "sentence_id": 41,
+                "reference_text": "단, 원유건 정유제품이건, 민생 목적이나, 핵미사일 계획과 무관한 것은, 세관 신고시 예외로 인정했습니다. 수입 금지 품목은 북한산 곡식과 농산품, 마그네사이트와 석재, 목재, 전자설비, 선박 등입니다. 중국은 유엔 안보리 결의가 나올 때마다, 관련 조치사항을 공고해왔습니다.",
+                "recognized_text": "단, 원유건 정유제품이건 민생 목적이나 핵미사일 계획과 무관한 것은 세관 신고 시 예외로 인정했습니다. 수입 금지 품목은 북한산 곡식과 농산품, 마그네사이트와 석재, 목재, 전자설비, 선박 등입니다. 중국은 유엔 안보리 결의가 나올 때마다 관련 조치 사항을 공고해왔습니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.69%",
+                    "speech_rate": "4.79 음절/초",
+                    "silence_ratio": "6.51%",
+                    "clarity_score": "97.05점"
+                },
+                "duration": "24.44초",
+                "total_silence_time": "1.59초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN005_42.wav",
+        "sentence_id": 42,
+        "results": {
+            "record_id": 92,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_42.wav",
+            "analysis_results": {
+                "sentence_id": 42,
+                "reference_text": "하지만, 이 시점에 발표한 것을 놓고, 미국 재무부가 북중간 유류 밀교역 의심 사진을 공개하는 등 중국을 압박하자, 중국이 안보리 결의의 철저한 이행을 과시하려는 것으로도 해석된다고 외교소식통은 전했습니다.",
+                "recognized_text": "하지만 이 시점에 발표한 것을 놓고 미국 재무부가 북중간 유류 밀교역 의심 사진을 공개하는 등 중국을 압박하자 중국이 안보리 결의에 철저한 이행을 과시하려는 것으로 해석된다고 외교 소식통은 전했습니다.",
+                "metrics": {
+                    "articulation_accuracy": "94.38%",
+                    "speech_rate": "5.46 음절/초",
+                    "silence_ratio": "0.0%",
+                    "clarity_score": "97.19점"
+                },
+                "duration": "15.58초",
+                "total_silence_time": "0.0초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN008_43.wav",
+        "sentence_id": 43,
+        "results": {
+            "record_id": 93,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN008_43.wav",
+            "analysis_results": {
+                "sentence_id": 43,
+                "reference_text": "승객 4천여 명이 탄 유람선이 대서양을 항해하던 중 초강력 겨울 폭풍을 만나 큰 피해를 입었는데요. 악천후 예보에도 불구하고 운항을 강행한 것으로 드러나 비난이 일고 있습니다. 천장과 문틈으로 비바람이 쉴 새 없이 들이닥치고, 유람선 내부는 금세 물바다를 이뤘습니다. 16만톤 급 유람선이 좌우로 휘청거리고, 벽에 있던 물건들이 우르르 떨어집니다.",
+                "recognized_text": "승객 4천여 명이 탄 유람선이 대서양을 항해하던 중 초강력 겨울폭풍을 만나 큰 피해를 입었는데요. 악천후 예보에도 불구하고 운항을 강행한 것으로 드러나 비난이 일고 있습니다. 천장과 문틈으로 비바람이 쉴 새 없이 들이닥치고 유람선 내부는 금세 물바다를 이뤘습니다. 16만 톤급 유람선이 좌우로 휘청거리고 벽에 있던 물건들이 우르르 떨어집니다. MBC 뉴스 김지경입니다.",
+                "metrics": {
+                    "articulation_accuracy": "90.54%",
+                    "speech_rate": "5.47 음절/초",
+                    "silence_ratio": "6.37%",
+                    "clarity_score": "94.0점"
+                },
+                "duration": "28.9초",
+                "total_silence_time": "1.84초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK035_SPK035KBSIN008_44.wav",
+        "sentence_id": 44,
+        "results": {
+            "record_id": 94,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN008_44.wav",
+            "analysis_results": {
+                "sentence_id": 44,
+                "reference_text": "공포에 빠진 승객들이 선실을 탈출해 삼삼오오 모여 있습니다. 승객 4천여 명을 태우고 바하마에서 뉴욕으로 가던 중이었는데요. 이른바 `폭탄 사이클론`이라 불리는 겨울 폭풍을 만난 겁니다. 10m 높이의 너울과 강풍을 뚫고 지나가며 누수와 정전, 파손 등의 피해를 보았고, 승객들은 꼬박 이틀 동안 악몽 같은 시간을 겪었다고 합니다.",
+                "recognized_text": "공포에 빠진 승객들이 선실을 탈출해 삼삼오오 모여 있습니다. 승객 4천여 명을 태우고 바하마에서 뉴욕으로 가던 중이었는데요. 이른바 폭탄, 사이클론이라 불리는 겨울 폭풍을 만난 겁니다. 10m 높이의 너울과 강풍을 뚫고 지나가며 누수와 정전, 파손 등의 피해를 보았고, 승객들은 꼬박 이틀 동안 악몽 같은 시간을 겪었다고 합니다. 이 시각 세계였습니다.",
+                "metrics": {
+                    "articulation_accuracy": "90.78%",
+                    "speech_rate": "5.85 음절/초",
+                    "silence_ratio": "7.64%",
+                    "clarity_score": "93.86점"
+                },
+                "duration": "25.66초",
+                "total_silence_time": "1.96초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU045_45.wav",
+        "sentence_id": 45,
+        "results": {
+            "record_id": 95,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU045_45.wav",
+            "analysis_results": {
+                "sentence_id": 45,
+                "reference_text": "지역 주민들의 참여 속에 사회적 거리 두기를 지키고 코로나 19극복 의지를 담은 창작 안무 공연이 프랑스 북부 광산 유적지에서 펼쳐졌습니다. 회색빛 민둥산 위에서 일정한 거리를 두고 둥글게 선 100여 명의 사람들이 단체로 기이한 춤사위를 선보입니다. 이곳은 유네스코 세계문화유산 중 하나인 프랑스 북부 `노르파드칼레` 광산입니다.",
+                "recognized_text": "지역 주민들의 참여 속에 사회적 거리 두기를 지키고 코로나19 극복 의지를 담은 창작 안무 공연이 프랑스 북부 광산 유적지에서 펼쳐졌습니다. 회색빛 민둥산 위에서 일정한 거리를 두고 둥글게 선 100여 명의 사람들이 단체로 기이한 춤사위를 선보입니다. 이곳은 유네스코 세계문화유산 중 하나인 프랑스 북부 노르파드칼레 광산입니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.59%",
+                    "speech_rate": "5.13 음절/초",
+                    "silence_ratio": "18.32%",
+                    "clarity_score": "95.63점"
+                },
+                "duration": "27.3초",
+                "total_silence_time": "5.0초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU045_46.wav",
+        "sentence_id": 46,
+        "results": {
+            "record_id": 96,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU045_46.wav",
+            "analysis_results": {
+                "sentence_id": 46,
+                "reference_text": "3세기를 이어온 이 탄광 유적지가 세계문화유산으로 지정된 지 8주년을 맞아 한 유명 예술 단체의 현대 무용가들이 이곳을 무대로 지역 주민들도 동참할 수 있는 기념 공연 프로젝트를 준비했는데요. 주최 측은 봉쇄 조치가 점차 완화되기 시작한 지난 5월부터 온라인으로 주민들의 참여 신청을 받았으며 코로나 19시대 참가자 간에 사회적 거리 두기를 지키고, 다 함께 이 힘든 시기를 이겨내자는 의미도 담은 안무를 창작했다고 전했습니다.",
+                "recognized_text": "3세기를 이어온 이 탄광 유적지가 세계 문화유산으로 지정된 지 8주년을 맞아 한 유명 예술단체의 현대무용가들이 이곳을 무대로 지역 주민들도 동참할 수 있는 기념 공연 프로젝트를 준비했는데요. 주최 측은 봉쇄 조치가 점차 완화되기 시작한 지난 5월부터 온라인으로 주민들의 참여 신청을 받았으며, 코로나19 시대 참가자 간의 사회적 거리 두기를 지키고 다함께 이 힘든 시기를 이겨내자는 의미도 담은 안무를 창작했다고 전했습니다",
+                "metrics": {
+                    "articulation_accuracy": "97.78%",
+                    "speech_rate": "5.21 음절/초",
+                    "silence_ratio": "13.22%",
+                    "clarity_score": "96.24점"
+                },
+                "duration": "34.34초",
+                "total_silence_time": "4.54초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU046_47.wav",
+        "sentence_id": 47,
+        "results": {
+            "record_id": 97,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU046_47.wav",
+            "analysis_results": {
+                "sentence_id": 47,
+                "reference_text": "코로나 19여파로 전 세계 많은 축제와 유명 행사들이 취소나 연기 결정을 내렸는데요. 프랑스에선 내년을 기약하며 축제 취소의 아쉬움을 달래는 예술가들의 무관중 야외 공연이 펼쳐졌습니다. 해발고도 1,400m 상공에서 자욱한 안개를 가르며 외줄을 타는 곡예사, 그 아래 잔디 언덕에선 색소폰 연주에 맞춰 현대 무용가들의 공연이 펼쳐집니다.",
+                "recognized_text": "코로나19 여파로 전세계 많은 축제와 유명 행사들이 취소나 연기 결정을 내렸는데요. 프랑스에선 내년을 기약하며 축제 취소의 아쉬움을 달래는 예술가들의 무관중 야외 공연이 펼쳐졌습니다. 해발고도 1400m 상공에서 자욱한 안개를 가르며 외주를 타는 고개사. 그 아래 잔디 언덕에선 색소폰 연주에 맞춰 현대 무용가들의 공연이 펼쳐집니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.86%",
+                    "speech_rate": "4.7 음절/초",
+                    "silence_ratio": "20.37%",
+                    "clarity_score": "93.86점"
+                },
+                "duration": "30.64초",
+                "total_silence_time": "6.24초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU046_48.wav",
+        "sentence_id": 48,
+        "results": {
+            "record_id": 98,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU046_48.wav",
+            "analysis_results": {
+                "sentence_id": 48,
+                "reference_text": "하늘에서부터 지상까지 다양한 퍼포먼스가 실시간으로 벌어지는 이곳은 프랑스 안시 인근의 `셈노즈 산` 스키장입니다. 매년 여름 안시 거리에서 열리는 설치 예술 축제 때마다 이곳 스키장 슬로프와 4km 주변 산길을 무대로 축제 개막을 기념하는 대규모 예술 공연이 펼쳐졌는데요.",
+                "recognized_text": "하늘에서부터 지상까지 다양한 퍼포먼스가 실시간으로 벌어지는 이곳은 프랑스 안시 인근의 샘노즈산 스키장입니다. 매년 여름 안시 거리에서 열리는 설치 예술 축제 때마다 이곳 스키장 슬로프와 4km 주변 산길을 무대로 축제 개막을 기념하는 대규모 예술 공연이 펼쳐졌는데요.",
+                "metrics": {
+                    "articulation_accuracy": "97.44%",
+                    "speech_rate": "5.23 음절/초",
+                    "silence_ratio": "12.82%",
+                    "clarity_score": "96.15점"
+                },
+                "duration": "22.0초",
+                "total_silence_time": "2.82초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU046_49.wav",
+        "sentence_id": 49,
+        "results": {
+            "record_id": 99,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU046_49.wav",
+            "analysis_results": {
+                "sentence_id": 49,
+                "reference_text": "하지만 올해는 코로나 19여파로 축제가 취소되자 100여 명의 지역 예술가들이 내년에는 관객들과 다시 만나고 싶다는 소망을 담아 5시간 동안 대자연 속에서 각양각색 무관중 마라톤 공연을 선보였습니다.",
+                "recognized_text": "하지만 올해는 코로나19 여파로 축제가 취소되자 100여 명의 지역 예술가들이 내년에는 관객들과 다시 만나고 싶다는 소망을 담아 5시간 동안 대자연 속에서 각양각색 무관중 마라톤 공연을 선보였습니다.",
+                "metrics": {
+                    "articulation_accuracy": "100.0%",
+                    "speech_rate": "5.28 음절/초",
+                    "silence_ratio": "0.0%",
+                    "clarity_score": "100.0점"
+                },
+                "duration": "16.28초",
+                "total_silence_time": "0.0초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU047_50.wav",
+        "sentence_id": 50,
+        "results": {
+            "record_id": 100,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU047_50.wav",
+            "analysis_results": {
+                "sentence_id": 50,
+                "reference_text": "코로나 시대에 거리 두기 수칙을 지키면서 즐겁게 공연을 관람할 수 있는 아이디어들이 속속 등장하는 가운데 우크라이나에선 호텔 건물 구조를 이용한 이색 야외 콘서트가 벌어졌습니다. 층별마다 발코니로 나온 사람들이 인기 록 밴드의 라이브 음악에 맞춰 춤을 추거나 힘찬 헤드뱅잉을 선보입니다.",
+                "recognized_text": "코로나 시대에 거리 두기 수칙을 지키면서 즐겁게 공연을 관람할 수 있는 아이디어들이 속속 등장하는 가운데 우크라이나에선 호텔 건물 구조를 이용한 이색 야외 콘서트가 벌어졌습니다. 층별마다 발코니로 나온 사람들이 인기 록밴드의 라이브 음악에 맞춰 춤을 추거나 힘찬 헤드뱅잉을 선보입니다.",
+                "metrics": {
+                    "articulation_accuracy": "100.0%",
+                    "speech_rate": "5.65 음절/초",
+                    "silence_ratio": "11.77%",
+                    "clarity_score": "97.65점"
+                },
+                "duration": "21.58초",
+                "total_silence_time": "2.54초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU047_51.wav",
+        "sentence_id": 51,
+        "results": {
+            "record_id": 101,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU047_51.wav",
+            "analysis_results": {
+                "sentence_id": 51,
+                "reference_text": "이 현장은 우크라이나 키예프의 한 호텔에서 펼쳐진 일명 `버티컬 콘서트`입니다. 기존 콘서트와 다르게 수직 구조의 객실 발코니를 관람석으로 삼았고 가수들은 객실 건물 맞은편 옥상에 설치된 특설 무대에서 라이브 공연을 펼치는 형탠데요. 관객들과 자연스럽게 거리두기를 지키면서 다 함께 마음껏 음악을 즐길 수 있도록 기획했다고 합니다.",
+                "recognized_text": "이 현장은 우크라이나 키에프의 한 호텔에서 펼쳐진 일명 버티컬 콘서트입니다. 기존 콘서트와 다르게 수직 구조의 객실 발코니를 관람석으로 삼았고, 가수들은 객실 건물 맞은편 옥상에 설치된 특설 무대에서 라이브 공연을 펼치는 형태인데요. 관객들과 자연스럽게 거리 두기를 지키면서 다 함께 마음껏 음악을 즐길 수 있도록 기획했다고 합니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.77%",
+                    "speech_rate": "5.13 음절/초",
+                    "silence_ratio": "20.68%",
+                    "clarity_score": "93.75점"
+                },
+                "duration": "27.66초",
+                "total_silence_time": "5.72초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU047_52.wav",
+        "sentence_id": 52,
+        "results": {
+            "record_id": 102,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU047_52.wav",
+            "analysis_results": {
+                "sentence_id": 52,
+                "reference_text": "관객들은 객실 전망에 따라 최대 8만원가량의 1박 객실료를 내면 되고, 최대 4명 까지만 발코니로 나와 공연을 볼 수 있는데요. 지난 주말에는 350여 명 이용객이 90개 객실 발코니에서 이 특별한 콘서트를 즐겼다고 합니다.",
+                "recognized_text": "관객들은 객실 전망에 따라 최대 8만원가량의 1박 객실료를 내면 되고 최대 4명까지만 발코니로 나와 공연을 볼 수 있는데요. 지난 주말에는 350여 명 이용객이 90개 객실 발코니에서 이 특별한 콘서트를 즐겼다고 합니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.94%",
+                    "speech_rate": "5.16 음절/초",
+                    "silence_ratio": "13.87%",
+                    "clarity_score": "96.69점"
+                },
+                "duration": "18.02초",
+                "total_silence_time": "2.5초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU048_53.wav",
+        "sentence_id": 53,
+        "results": {
+            "record_id": 103,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU048_53.wav",
+            "analysis_results": {
+                "sentence_id": 53,
+                "reference_text": "중국 저장 성에서 뿔제비갈매기 19마리가 태어났습니다. 뿔제비갈매기는 지구 상에 남아있는 개체 수가 백 마리도 채 안 되는 멸종위기종입니다. 저장 성 닝보 샹산 국가급 자연 보호구역입니다. 어미 뿔제비갈매기가 정성껏 알을 품고 있습니다.",
+                "recognized_text": "중국 저장성에서 뿔제비 갈매기 19마리가 태어났습니다. 뿔제비 갈매기는 지구상에 남아있는 개체수가 100마리도 채 안되는 멸종위기종입니다. 저장성 닝보샹샨 국가급 자연 보호구역입니다. 어미 뿔제비 갈매기가 정성껏 알을 품고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.08%",
+                    "speech_rate": "4.31 음절/초",
+                    "silence_ratio": "31.59%",
+                    "clarity_score": "91.72점"
+                },
+                "duration": "24.12초",
+                "total_silence_time": "7.62초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU048_54.wav",
+        "sentence_id": 54,
+        "results": {
+            "record_id": 104,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU048_54.wav",
+            "analysis_results": {
+                "sentence_id": 54,
+                "reference_text": "잠시 뒤 어미 배 밑에서 작고 귀여운 새끼 뿔제비갈매기가 모습을 드러냅니다. 연구팀과 자원봉사자들은 지난 4월 26일부터 석 달간 번식기를 맞은 뿔제비갈매기를 관찰하기 시작했는데요. 많을 때는 섬 주변에서 76마리 정도가 발견되기도 했습니다. 뿔제비갈매기는 이번 번식기에 58개의 알을 낳았는데 천적과 날씨 영향으로 19개만 부화에 성공했습니다.",
+                "recognized_text": "잠시 뒤, 어미 배 밑에서 작고 귀여운 새끼 뿔제비 갈매기가 모습을 드러냅니다. 연구팀과 자연 봉사자들은 지난 4월 26일부터 석 달간 번식기를 맞은 뿔제비 갈매기를 관찰하기 시작했는데요. 많을 때는 섬 주변에서 76마리 정도가 발견되기도 했습니다. 뿔제비갈매기는 이번 번식기에 58개의 알을 낳았는데 천적과 날씨 영향으로 19개만 부화에 성공했습니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.68%",
+                    "speech_rate": "4.53 음절/초",
+                    "silence_ratio": "23.35%",
+                    "clarity_score": "94.67점"
+                },
+                "duration": "33.58초",
+                "total_silence_time": "7.84초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU049_55.wav",
+        "sentence_id": 55,
+        "results": {
+            "record_id": 105,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU049_55.wav",
+            "analysis_results": {
+                "sentence_id": 55,
+                "reference_text": "지난 6월 태어난 한국호랑이 5남매가 어제 일반에 처음 공개됐습니다. 멸종위기종 1급인 한국 호랑이는 보통 한 번에 2, 3마리 정도만 출산하는 것으로 알려져 있는데, 이렇게 5남매가 한꺼번에 태어난 것은 세계적으로 매우 희귀한 사례로 꼽힙니다. 작은 몸집에 동그란 눈을 깜빡거리며 아기 호랑이 5마리가 우리 구석에 한데 모여 장난을 치고 있습니다.",
+                "recognized_text": "지난 6월 태어난 한국 호랑이 5남매가 어제 일반에 처음 공개됐습니다. 멸종위기종 1급인 한국 호랑이는 한 번에 두세 마리 정도만 출산하는 것으로 알려져 있어 5남매가 한 번에 태어난 것은 세계적으로도 매우 희귀한 사례입니다. 작은 몸집에 동그란 눈을 깜빡거리며 아기 호랑이 5마리가 우리 구석에 한데 모여 장난을 치고 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "89.19%",
+                    "speech_rate": "5.47 음절/초",
+                    "silence_ratio": "12.12%",
+                    "clarity_score": "92.17점"
+                },
+                "duration": "25.24초",
+                "total_silence_time": "3.06초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU049_56.wav",
+        "sentence_id": 56,
+        "results": {
+            "record_id": 106,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU049_56.wav",
+            "analysis_results": {
+                "sentence_id": 56,
+                "reference_text": "엄마에게 서로 올라가기 위해 귀여운 몸싸움도 벌이지만, 놀 때도 잘 때도 절대 떨어지지 않고 붙어있는 사이 좋은 5남매입니다. 지난 6월 27일, 엄마 건곤이와 아빠 태호사이에서 태어난 한국 호랑이 5남매 `아름, 다운, 우리, 나라, 강산`. 보름 전부터 우리에서 나와 바깥 시설 적응 기간을 거쳐 어제 처음으로 일반에 모습이 공개됐습니다.",
+                "recognized_text": "엄마에게 서로 올라가기 위해 귀여운 몸싸움도 벌이지만 놀 때도 잘 때도 절대 떨어지지 않고 붙어있는 사이좋은 오남매입니다. 지난 6월 27일 엄마 건곤이와 아빠 태호 사이에서 태어난 한국호랑이 오남매 아름, 다운, 우리, 나라, 강산. 보름 전부터 우리에서 나와 바깥시설 적응기간을 거쳐 어제 처음으로 일반의 모습이 공개됐습니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.14%",
+                    "speech_rate": "5.11 음절/초",
+                    "silence_ratio": "8.1%",
+                    "clarity_score": "95.95점"
+                },
+                "duration": "27.4초",
+                "total_silence_time": "2.22초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK064_SPK064KBSCU049_57.wav",
+        "sentence_id": 57,
+        "results": {
+            "record_id": 107,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU049_57.wav",
+            "analysis_results": {
+                "sentence_id": 57,
+                "reference_text": "1kg 남짓 작은 몸으로 태어난 아기 호랑이들은 100일을 앞두고 현재 몸무게가 10kg 이 넘어갈 정도로 건강하게 성장하고 있습니다. 호랑이 이름 응모에만 2천여 건의 의견이 모였을 정도로 공개 전부터 많은 관심을 받았습니다. `아름, 다운, 우리, 나라, 강산` 아기호랑이 5남매의 성장 일기는 앞으로 공식 SNS 등을 통해 일반에 꾸준히 공개될 예정입니다.",
+                "recognized_text": "1kg 남짓 작은 몸으로 태어난 아기 호랑이들은 100일을 앞두고 현재 몸무게가 10kg이 넘어갈 정도로 건강하게 성장하고 있습니다. 호랑이 이름 응모에만 2천여 건의 의견이 모였을 정도로 공개 전부터 많은 관심을 받았습니다. 아름, 다운, 우리, 나라, 강산, 아기 호랑이 오남매의 성장일기는 앞으로 공식 SNS 등을 통해 일반에 꾸준히 공개될 예정입니다.",
+                "metrics": {
+                    "articulation_accuracy": "98.05%",
+                    "speech_rate": "5.48 음절/초",
+                    "silence_ratio": "12.24%",
+                    "clarity_score": "96.58점"
+                },
+                "duration": "27.94초",
+                "total_silence_time": "3.42초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU081_58.wav",
+        "sentence_id": 58,
+        "results": {
+            "record_id": 108,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU081_58.wav",
+            "analysis_results": {
+                "sentence_id": 58,
+                "reference_text": "미국에도 봄이 다가오면서 얼었던 호수가 녹았는데, 얼음이 무려 100만조각으로 부서져 장관을 만들었습니다. 지난 19일 미국 미시간 호수에서 놀라운 광경이 펼쳐졌습니다. 잘 재단된 유리 조각 같은 게 셀 수도 없이 쌓여 있는데요. 빛깔도 영롱한 푸른색에 일정해 보이는 패턴까지 실력 좋은 조각가의 작품 같기도 합니다.",
+                "recognized_text": "미국에도 봄이 다가오면서 얼었던 호수가 녹았는데 얼음이 무려 100만 조각으로 부서져 장관을 만들었습니다. 지난 19일 미국 미시간 호수에서 놀라운 광경이 펼쳐졌습니다. 잘 재단된 유리 조각 같은 게 셀 수 없이 쌓여 있는데요. 빛깔도 영롱한 푸른색의 일정해 보이는 패턴까지 실력 좋은 조각가의 작품 같기도 합니다.",
+                "metrics": {
+                    "articulation_accuracy": "97.78%",
+                    "speech_rate": "4.88 음절/초",
+                    "silence_ratio": "27.9%",
+                    "clarity_score": "93.31점"
+                },
+                "duration": "27.24초",
+                "total_silence_time": "7.6초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU081_59.wav",
+        "sentence_id": 59,
+        "results": {
+            "record_id": 109,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU081_59.wav",
+            "analysis_results": {
+                "sentence_id": 59,
+                "reference_text": "볼수록 신비로운 이 작품은 자연이 만든 겁니다. 지난 겨울 미국 중북부를 강타한 기록적인 한파의 영향으로 미시간 호수 표면이 절반 이상 얼어붙었는데요. 딱딱한 얼음덩어리 호수도 봄기운은 피할 순 없었나 봅니다. 날이 따뜻해지면서 호수가 빠르게 녹기 시작했고 아래쪽 물이 얼음판을 밀어 올려 이런 장관을 만들었다고 하네요.",
+                "recognized_text": "볼수록 신비로운 이 작품은 자연이 만든 겁니다. 지난 겨울 미국 중북부를 강타한 기록적인 한파의 영향으로 미시간 호수 표면이 절반 이상 얼어붙었는데요. 딱딱한 얼음 덩어리 호수도 봄기운은 피할 수 없었나 봅니다. 날이 따뜻해지면서 호수가 빠르게 녹기 시작했고 아래쪽 물이 얼음판을 밀어올려 이런 장관을 만들었다고 하네요.",
+                "metrics": {
+                    "articulation_accuracy": "99.26%",
+                    "speech_rate": "4.99 음절/초",
+                    "silence_ratio": "26.91%",
+                    "clarity_score": "94.25점"
+                },
+                "duration": "27.28초",
+                "total_silence_time": "7.34초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU082_60.wav",
+        "sentence_id": 60,
+        "results": {
+            "record_id": 110,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU082_60.wav",
+            "analysis_results": {
+                "sentence_id": 60,
+                "reference_text": "호주 퀸즐랜드주 해안에서 지금 보시는 거대한 돔이 잡혔습니다. 길이는 104cm, 무게는 22kg 이라고 하는데요. 지난달 23일, 에드 팔코너 씨가 퀸즐랜드 남동부 레인보우 해변에서 잡은 황적퉁돔입니다. 영어권에서는 `붉은 황제`라고 불리는 이 황적퉁돔은 참돔과 비슷하게 생겼습니다.",
+                "recognized_text": "호주 퀸즐랜드주 해안에서 지금 보시는 거대한 돔이 잡혔습니다. 길이는 104cm, 무게는 22kg이라고 하는데요. 지난달 23일 에드 팔코너 씨가 퀸즐랜드주 남동부 레인보우 해변에서 잡은 황적 퉁돔입니다. 영어권에서 붉은 황제라고 불리는 이 황적 퉁돔은 참돔과 비슷하게 생겼습니다. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "91.27%",
+                    "speech_rate": "4.19 음절/초",
+                    "silence_ratio": "31.21%",
+                    "clarity_score": "89.39점"
+                },
+                "duration": "30.76초",
+                "total_silence_time": "9.6초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU082_61.wav",
+        "sentence_id": 61,
+        "results": {
+            "record_id": 111,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU082_61.wav",
+            "analysis_results": {
+                "sentence_id": 61,
+                "reference_text": "팔코너 씨는 30년째 이 해역에서 낚시를 했지만 이렇게 큰 황적퉁돔은 처음이라면서 일생에 한 번 있을까 말까 한 횡재라고 기뻐했습니다. 그는 돔을 잡을 당시에 20분 동안이나 힘겨루기를 했다는데요. 거대 돔은 힘이 너무 세서 수면 위로 끌어올리는 데도 애를 먹었다고 합니다.",
+                "recognized_text": "팔코너 씨는 30년째 이해역에서 낚시를 했지만 이렇게 큰 황적퉁돔은 처음이라면서 일생에 한번 있을까 말까한 횡재라고 기뻐했습니다. 그는 돔을 잡을 당시에 20분 동안이나 힘겨루기를 했다는데요. 거대 돔은 힘이 너무 세서 수면위로 끌어올리는데도 애를 먹었다고 합니다.",
+                "metrics": {
+                    "articulation_accuracy": "100.0%",
+                    "speech_rate": "4.97 음절/초",
+                    "silence_ratio": "21.87%",
+                    "clarity_score": "95.63점"
+                },
+                "duration": "23.14초",
+                "total_silence_time": "5.06초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU083_62.wav",
+        "sentence_id": 62,
+        "results": {
+            "record_id": 112,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU083_62.wav",
+            "analysis_results": {
+                "sentence_id": 62,
+                "reference_text": "창립 100주년을 맞은 LA 필하모닉 오케스트라가 사흘간 다양한 공연으로 한국 관객들을 만납니다. 우선 음악감독 구스타보 두다멜 지휘, 유자 왕 협연으로 말러 교향곡 1번과 존 아담스의 피아노 협주곡을 선보입니다. 영화음악가 존 윌리암스를 테마로, 스타워즈와 인디아나 존스 등 귀에 익은 영화음악을 연주하는 둘째 날은 대중성을 강조했습니다.",
+                "recognized_text": "창립 100주년을 맞은 LA 피라모닉 오케스트라가 사흘간 다양한 공연으로 한국 관객들을 만납니다. 우선 음악감독 구스타보 두담을 지휘, 유자왕 협연으로 말러 교양곡 1번과 존 아담스의 피아노 협주곡을 선보입니다. 영화음악가 존 윌리암스를 테마로 스타워즈나 인디아나 존스 등 귀에 익은 영화음악을 연주하는 둘째 날은 대중성을 강조했습니다. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "91.16%",
+                    "speech_rate": "4.98 음절/초",
+                    "silence_ratio": "22.02%",
+                    "clarity_score": "91.17점"
+                },
+                "duration": "30.52초",
+                "total_silence_time": "6.72초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU083_63.wav",
+        "sentence_id": 63,
+        "results": {
+            "record_id": 113,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU083_63.wav",
+            "analysis_results": {
+                "sentence_id": 63,
+                "reference_text": "셋째 날은 LA 필하모닉의 수석 연주자들에, 피아니스트 유자왕, 바이올리니스트 에스더 유가 가세하는 실내악 콘서트입니다. 고 김광석의 노래로 만든 뮤지컬 `그날들`은 청와대 경호실을 배경으로, 과거와 현재를 넘나들며 펼쳐지는 사랑 이야기입니다. 과감한 편곡을 거친 김광석의 노래들이 원곡의 정서와는 동떨어진 상황에 배치되지만, 스토리와 잘 들어맞는 묘미가 있습니다.",
+                "recognized_text": "셋째 날은 LA 피라노믹의 수성 연주자들의 피아니스트 유자왕, 바이올리니스트의 에스터 유가 가세하는 실내악 콘서트입니다. 고 김광석의 노래로 만든 뮤지컬 그날들은 청와대 경호실 배경으로 과거와 현재를 넘나들며 펼쳐지는 사랑 이야기입니다. 과감한 편곡을 거친 김광석의 노래들이 원곡의 정서와는 동떨어진 상황에 배치되지만 스토리와 잘 들어맞는 묘미가 있습니다. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "87.58%",
+                    "speech_rate": "5.2 음절/초",
+                    "silence_ratio": "18.36%",
+                    "clarity_score": "90.12점"
+                },
+                "duration": "31.16초",
+                "total_silence_time": "5.72초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU083_64.wav",
+        "sentence_id": 64,
+        "results": {
+            "record_id": 114,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU083_64.wav",
+            "analysis_results": {
+                "sentence_id": 64,
+                "reference_text": "유도, 검도, 특공무술을 응용한 액션 장면과 박진감 넘치는 군무가 돋보입니다. 파리 슬럼가의 아파트를 배경으로, 부모가 누구인지 모르는 아랍계 소년 모모와 오갈 데 없는 아이들을 돌보는 유대인 보모 로자의 이야기가 펼쳐집니다. 국립 극단의 올해 첫 공연은 프랑스 소설가 로맹 가리의 소설이 원작인 `자기 앞의 생`입니다.",
+                "recognized_text": "유도, 검도, 특공무술을 응용한 액션 장면과 박진감 넘치는 군무가 돋보입니다. 파리 슬럼가의 아파트를 배경으로 부모가 누구인지 모르는 아랍계 소년 모모와 오갈 데 없는 아이들을 돌보는 유대인 보모로자 이야기가 펼쳐집니다. 국립극단의 올해 첫 공연은 프랑스 소설과 로맨가리의 소설이 원작인 자기 앞에 생입니다.",
+                "metrics": {
+                    "articulation_accuracy": "94.85%",
+                    "speech_rate": "5.17 음절/초",
+                    "silence_ratio": "20.1%",
+                    "clarity_score": "93.41점"
+                },
+                "duration": "25.52초",
+                "total_silence_time": "5.13초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU086_65.wav",
+        "sentence_id": 65,
+        "results": {
+            "record_id": 115,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU086_65.wav",
+            "analysis_results": {
+                "sentence_id": 65,
+                "reference_text": "넓게 펼쳐진 가야산 위로 회색 먹구름이 드리워진 아름다운 풍경 사진에, 한가운데 조금 생뚱맞아 보이는 흰색 기둥이 눈길을 끕니다. 누군가 두꺼운 붓으로 쓱 그은 것 같기도 하고 아니면 혹시 하늘에 구멍이라도 뚫린 걸까요? 이 신비로운 사진은 `제 36회 기상 기후 사진 공모전`에서 대상을 받은 김학수 씨의 작품인데요.",
+                "recognized_text": "넓게 펼쳐진 가야산 위로 회색 먹구름이 드리워진 아름다운 풍경 사진에 한가롭게 조금 생뚱맞아 보이는 흰색 기둥이 눈길을 끕니다. 누군가 두꺼운 붓으로 쓱 그은 것 같기도 하고 아니면 혹시 하늘에 구멍이라도 뚫린 걸까요? 이 신비로운 사진은 제36회 기상기후 사진 공모전에서 대상을 받은 김학수 씨의 작품인데요.",
+                "metrics": {
+                    "articulation_accuracy": "96.24%",
+                    "speech_rate": "4.82 음절/초",
+                    "silence_ratio": "18.32%",
+                    "clarity_score": "94.46점"
+                },
+                "duration": "26.96초",
+                "total_silence_time": "4.94초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU086_66.wav",
+        "sentence_id": 66,
+        "results": {
+            "record_id": 116,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU086_66.wav",
+            "analysis_results": {
+                "sentence_id": 66,
+                "reference_text": "놀랍게도 자연 현상 그대로를 담은 사진이라고 합니다. 먹구름 사이로 실제 소나기가 내리는 모습인데요. 발달한 대류운의 강수 세포에서 소나기가 내리던 중, 그 줄기가 구름 아래에서 부는 바람에 의해 옆으로 밀리는 순간을 포착한 겁니다. 누리꾼들은 '멋진 풍경 사진에 웬 포토샵인가 했는데 자연의 작품이었군요.', '정말 장관이네요. 두 눈으로 직접 보고 싶어요.' 하는 등의 반응을 보였습니다.",
+                "recognized_text": "놀랍게도 자연현상 그대로를 담은 사진이라고 합니다. 먹구름 사이로 실제 소나기가 내리는 모습인데요. 발달한 대리운에 강수세포에서 소나기가 내리던 중 그 줄기가 구름 아래에서 부는 바람에 의해 옆으로 밀리는 순간을 표적한 겁니다. 누리꾼들은 멋진 풍경 사진에 웬 포토샵인가 했는데 자연의 작품이었군요. 정말 장관이네요 두 눈으로 직접 보고 싶어요 하는 등의 반응을 보였습니다",
+                "metrics": {
+                    "articulation_accuracy": "92.26%",
+                    "speech_rate": "4.74 음절/초",
+                    "silence_ratio": "23.43%",
+                    "clarity_score": "91.44점"
+                },
+                "duration": "33.54초",
+                "total_silence_time": "7.86초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU087_67.wav",
+        "sentence_id": 67,
+        "results": {
+            "record_id": 117,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU087_67.wav",
+            "analysis_results": {
+                "sentence_id": 67,
+                "reference_text": "`영원한 오빠` 로 불리는 나훈아 씨의 콘서트 표가 30분 만에 전석 매진됐습니다. 저도 한 번 시도했다가 실패했는데요. 언제 봐도 에너지 넘치는 나훈아 씨의 공연, 부모님 세대라면 누구나 `꼭 한번 가보고 싶다` 하실 텐데요. 오는 5월에 열리는 `2019청춘 어게인` 공연 티켓도 순식간에 매진을 기록했습니다.",
+                "recognized_text": "영원한 오빠로 불리는 나훈아씨의 콘서트가 30분 만에 전성 매진됐습니다. 저도 한 번 시도했다가 실패했는데요. 언제 봐도 에너지 넘치는 나훈아씨의 공연, 부모님 세대라면 누구나 꼭 한 번 가보고 싶다고 하실 텐데요. 오는 5월에 열리는 2019 청춘어교인 공연 티켓도 순식간에 매진을 기록했습니다. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "88.72%",
+                    "speech_rate": "4.28 음절/초",
+                    "silence_ratio": "26.46%",
+                    "clarity_score": "89.07점"
+                },
+                "duration": "31.06초",
+                "total_silence_time": "8.22초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU087_68.wav",
+        "sentence_id": 68,
+        "results": {
+            "record_id": 118,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU087_68.wav",
+            "analysis_results": {
+                "sentence_id": 68,
+                "reference_text": "만 석 규모의 올림픽공원 체조경기장에서 세 차례 열리는 공연인데, 30분도 채 안 돼 모두 팔린 건데요. 중고 사이트에는 벌써부터 남은 표를 구하는 사람들이 몰리고 있습니다. 이런 데에는 부모님을 위한 자녀들의 `효도 전쟁`이 한몫 했는데요. 온라인 예매에 서투른 어르신분들을 대신해서 자녀들이 발 벗고 나선 결과, 실시간 검색어 1위는 물론 한때 예매 사이트를 마비시키기도 했습니다.",
+                "recognized_text": "만석 규모의 올림픽 공원 체조경기장에서 세 차례 열리는 공연인데 30분도 채 안 돼 모두 팔린 건데요. 중고 사이트에서는 벌써부터 남은 표를 구하는 사람들이 몰리고 있습니다. 이런 데에는 부모님을 위한 자녀들의 효도 전쟁이 한몫했는데요. 온라인 예매에 서툰 어르신들을 대신해서 자녀들이 발뻗고 나선 결과 실시간 검색어 1위는 물론 한때 예매 사이트를 마비시키기도 했습니다",
+                "metrics": {
+                    "articulation_accuracy": "93.87%",
+                    "speech_rate": "4.72 음절/초",
+                    "silence_ratio": "21.69%",
+                    "clarity_score": "92.59점"
+                },
+                "duration": "33.28초",
+                "total_silence_time": "7.22초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU088_69.wav",
+        "sentence_id": 69,
+        "results": {
+            "record_id": 119,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU088_69.wav",
+            "analysis_results": {
+                "sentence_id": 69,
+                "reference_text": "올해로 10년째를 맞는 `창덕궁 달빛 기행` 행사가 오는 4월 4일부터 열립니다. 유네스코 세계문화유산으로 등재된 창덕궁의 아름다운 야경은 물론이고, 전문 해설사가 전해주는 조선왕조 이야기도 즐길 수 있는데요. 뿐만 아니라 맛있는 다과와 함께 전통예술 공연을 감상하는 등 다채로운 프로그램이 마련돼 있어 매년 뜨거운 사랑을 받고 있습니다.",
+                "recognized_text": "올해로 10년째를 맞는 창덕궁 달빛기획 행사가 오는 4월 4일부터 열립니다. 유네스코 세계 문화유산으로 등재된 창덕궁의 아름다운 야경은 물론이고 전문 해설사가 전해주는 조선왕조 이야기도 즐길 수 있는데요. 뿐만 아니라 맛있는 다가와 함께 전통 예술 공연을 감상하는 등 다채로운 프로그램이 마련돼 있어 매년 뜨거운 사랑을 받고 있습니다. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "92.47%",
+                    "speech_rate": "4.75 음절/초",
+                    "silence_ratio": "19.52%",
+                    "clarity_score": "92.33점"
+                },
+                "duration": "31.36초",
+                "total_silence_time": "6.12초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU088_70.wav",
+        "sentence_id": 70,
+        "results": {
+            "record_id": 120,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU088_70.wav",
+            "analysis_results": {
+                "sentence_id": 70,
+                "reference_text": "다만, 문화유산 보호와 원활한 행사 진행을 위해 참여 인원을 회당 100명으로 제한하고 있어 매번 `입장권 예매 전쟁` 이 벌어지는데요. 오늘도 판매가 시작되자마자 신청자가 몰려 곧바로 매진됐습니다. 하지만 아직 하반기 입장권을 살 수 있는 기회가 남아 있습니다. 올해는 모두 102회의 행사가 예정돼 있는데요.",
+                "recognized_text": "다만 문화유산 보호와 원활한 행사 진행을 위해 참여인원을 회당 100명으로 제한하고 있어 매번 입장권 예매 전쟁이 벌어지는데요. 오늘도 판매가 시작되자마자 신청자가 몰려 곧바로 매진됐습니다. 하지만 아직 하반기 입장권을 살 수 있는 기회가 남아있습니다. 올해는 모두 102회의 행사가 예정돼 있는데요. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "93.23%",
+                    "speech_rate": "4.41 음절/초",
+                    "silence_ratio": "28.88%",
+                    "clarity_score": "90.84점"
+                },
+                "duration": "30.82초",
+                "total_silence_time": "8.9초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU089_71.wav",
+        "sentence_id": 71,
+        "results": {
+            "record_id": 121,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU089_71.wav",
+            "analysis_results": {
+                "sentence_id": 71,
+                "reference_text": "그동안 '치매다, 독감이다' 하면서 차일피일 출석을 미루던 전 씨의 오늘 재판 출석에 많은 관심이 모아지고 있습니다. 저희 SBS 는 30년 전 군부가 조비오 신부 주변을 사찰하고, 헬기 사격 명령을 받았다고 양심선언 한 장교까지 색출하려 했던 문건을 입수했습니다. 1989년 3월 6일, 당시 보안사가 작성한 문건입니다.",
+                "recognized_text": "그동안 치매다 독감이다 하면서 차일피일 출석을 미루던 전 씨의 오늘 재판 출석에 많은 관심이 모여지고 있습니다. 저희 SBS는 30년 전부터 군부가 조비오 신부 주변을 사찰하고 헬기 사격 명령을 받았다고 양심 선언한 장교까지 세출하려 했던 문건을 입수했습니다. 1989년 3월 6일 당시 보안사가 작성한 문건입니다. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "89.05%",
+                    "speech_rate": "4.6 음절/초",
+                    "silence_ratio": "23.21%",
+                    "clarity_score": "89.88점"
+                },
+                "duration": "30.46초",
+                "total_silence_time": "7.07초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU089_72.wav",
+        "sentence_id": 72,
+        "results": {
+            "record_id": 122,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU089_72.wav",
+            "analysis_results": {
+                "sentence_id": 72,
+                "reference_text": "제목은 `광주사태 시 무장헬기 기총 소사 내용 증언 동정`. 지난해 군사안보지원사로 개편된 과거 기무사가 보관하던 것으로, 문건은 조비오 신부를 겨냥하고 있습니다. 무장헬기 사격이 사실이라는 말이 광주 교구 조비오 신부를 통해 유통되고 있다면서, 광주민중항쟁 당시 무장헬기 조종사로 참가한 전직 장교 1명이 86년 광주 대교구 사제 피정 때 양심선언으로 이런 사실을 밝혔다고 돼 있습니다.",
+                "recognized_text": "제목은 광주 사태 시 무장헬기 기총 소사 내용 증언 동정. 지난해 군사 안보 지원사로 개편된 과거 기무사가 복원하던 것으로 문건은 조비오 신부를 겨냥하고 있습니다. 무장헬기 사격이 사실이라는 말이 광주교구 조비오 신부를 통해 유통되고 있다면서 광주 민중항쟁 당시 무장헬기 조종사로 참가한 전직 장교 한 명이 86년 광주대교구 사제 피정 때 양심선언으로 이런 사실을 밝혔다고 돼 있습니다.",
+                "metrics": {
+                    "articulation_accuracy": "95.78%",
+                    "speech_rate": "4.74 음절/초",
+                    "silence_ratio": "13.22%",
+                    "clarity_score": "95.25점"
+                },
+                "duration": "34.2초",
+                "total_silence_time": "4.52초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU089_73.wav",
+        "sentence_id": 73,
+        "results": {
+            "record_id": 123,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU089_73.wav",
+            "analysis_results": {
+                "sentence_id": 73,
+                "reference_text": "문건 작성 직전인 1989년 2월, 조 신부는 국회 청문회에서 5.18당시 계엄군의 헬기 사격 목격담을 증언했는데, 이 직후 조 신부 주변을 사찰한 것으로 분석됩니다. 당시 군부는 증언자 색출도 시도한 것으로 보입니다. 증언자는 육군항공대 1여단 소속 정조종사로 상부로부터 시위 진압을 위한 사격 명령을 하달 받았고, 인명 살상을 우려해 최소한 자기가 소속된 편대기에서는 사격을 가하지 않았다고 증언한 것을 적어 뒀습니다.",
+                "recognized_text": "문건 작성 직전인 1989년 2월 조신부는 국회 청문회에서 5.18 당시 계엄군의 헬기 사격 목격담을 증언했는데 이 직후 조신부 주변을 사찰한 것으로 분석됩니다. 당시 군부는 증언자 색출도 시도한 것으로 보입니다. 증언자는 육군항공대 일려단 소속 정조종사로 상부로부터 시위 진압을 위한 사격명령을 하달받았고 임명 살상을 우려해 최소한 자기가 소속된 편대기에서는 사격을 가지 않았다고 증언한 것을 적어뒀습니다",
+                "metrics": {
+                    "articulation_accuracy": "95.56%",
+                    "speech_rate": "4.77 음절/초",
+                    "silence_ratio": "11.73%",
+                    "clarity_score": "95.43점"
+                },
+                "duration": "36.66초",
+                "total_silence_time": "4.3초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU090_74.wav",
+        "sentence_id": 74,
+        "results": {
+            "record_id": 124,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU090_74.wav",
+            "analysis_results": {
+                "sentence_id": 74,
+                "reference_text": "온화한 성품으로 많은 이들의 마음을 따뜻하게 해주던 이 프란체스코 교황이, 반지에 입맞춤하려는 신자들을 뿌리치는 모습을 보여 눈길을 끌고 있습니다. 이탈리아 로레토 성지를 방문한 교황은, 언제나처럼 온화한 미소를 짓고 있지만, 신자들이 다가와 악수한 후 반지에 입맞춤을 시도하자 재빨리 손을 뒤로 빼는 모습입니다.",
+                "recognized_text": "온호한 성품으로 많은 이들의 마음을 따뜻하게 해주던 이 프란체스코 교황이 반지에 입맞춤하려는 신자들을 뿌리치는 모습을 보여 눈길을 끌고 있습니다. 이탈리아 로레토 성지를 방문한 교황은 언제나처럼 온호한 미소를 짓고 있지만 신자들이 다가와 악수한 후 반지에 입맞춤을 시도하자 재빨리 손을 뒤로 빼는 모습입니다.",
+                "metrics": {
+                    "articulation_accuracy": "96.3%",
+                    "speech_rate": "5.7 음절/초",
+                    "silence_ratio": "12.71%",
+                    "clarity_score": "95.61점"
+                },
+                "duration": "23.14초",
+                "total_silence_time": "2.94초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU090_75.wav",
+        "sentence_id": 75,
+        "results": {
+            "record_id": 125,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU090_75.wav",
+            "analysis_results": {
+                "sentence_id": 75,
+                "reference_text": "뒤이어 줄을 선 신자에게도 예외 없이 똑같은 동작을 반복하는데요. 이 모습이 입길에 오르자 보수 가톨릭계에서는 교황의 행동이 전통을 무시한 것이라는 비난이 나왔습니다. 하지만 일부에서는 교황이 자신을 성스러운 존재로 대우하지 않기를 바라는 마음에서 한 행동이라며 두둔했는데요.",
+                "recognized_text": "뒤이어 줄을 선 신자에게도 예외 없이 똑같은 동작을 반복하는데요. 이 모습이 입길에 오르자 보수 가톨릭계에서는 교황의 행동이 전통을 무시한 것이라는 비난이 나왔습니다. 하지만 일부에서는 교황이 자신을 성스러운 존재로 대화하지 않기를 바라는 마음에서 한 행동이라며 두둔했는데요.",
+                "metrics": {
+                    "articulation_accuracy": "99.17%",
+                    "speech_rate": "5.31 음절/초",
+                    "silence_ratio": "18.76%",
+                    "clarity_score": "95.83점"
+                },
+                "duration": "22.6초",
+                "total_silence_time": "4.24초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU091_76.wav",
+        "sentence_id": 76,
+        "results": {
+            "record_id": 126,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU091_76.wav",
+            "analysis_results": {
+                "sentence_id": 76,
+                "reference_text": "세계적 멸종 위기종인 자이언트 판다가 우리나라에서 처음으로 자연 번식에 성공했습니다. 경기도 용인 에버랜드에 살고 있는 암컷 아이바오와 수컷 러바오 사이에서 태어난 아기 판다입니다. 이틀 전인 20일 밤에 태어난 이 판다는, 키는 16.5cm, 몸무게는 197g 암컷으로, 우리나라에서 태어난 최초의 판다라고 합니다.",
+                "recognized_text": "세계적 멸종위기종인 자이언트 판다가 우리나라에서 처음으로 자연 번식에 성공했습니다. 경희도 용인 에버랜드에 살고 있는 암컷 아이바오와 수컷 러바오 사이에서 태어난 아기 판다입니다. 이틀 전인 20일 밤에 태어난 이 판다는 키는 16.5cm, 몸무게는 197kg 암컷으로 우리나라에서 태어난 최초의 판다라고 합니다. 감사합니다.",
+                "metrics": {
+                    "articulation_accuracy": "92.75%",
+                    "speech_rate": "4.69 음절/초",
+                    "silence_ratio": "24.43%",
+                    "clarity_score": "91.49점"
+                },
+                "duration": "30.46초",
+                "total_silence_time": "7.44초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU091_77.wav",
+        "sentence_id": 77,
+        "results": {
+            "record_id": 127,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU091_77.wav",
+            "analysis_results": {
+                "sentence_id": 77,
+                "reference_text": "엄마 아빠 판다랑 비교하면 정말 작은 크기인데요. 판다는 원래 성체의 800분의 1에서 900분의 1수준으로, 태어날 때 아주 작게 태어나는 특성을 갖고 있습니다. 에버랜드 사육사들은 판다의 가임기가 1년에 단 사흘에 불과하다는 점을 고려해서 따로 전담 팀까지 만들어 판다의 임신과 출산에 힘썼다고 하는데요.",
+                "recognized_text": "엄마, 아빠 판다랑 비교하면 정말 작은 크기인데요. 판다는 원래 성체의 1분의 800에서 1분의 900 수준으로 태어날 때 아주 작게 태어나는 특성을 갖고 있습니다. 에버랜드 사육사들은 판다의 가임기가 1년에 단 사흘에 불과하다는 점을 고려해서 따로 전담팀까지 만들어 판다의 임신과 출산에 힘썼다고 하는데요.",
+                "metrics": {
+                    "articulation_accuracy": "90.91%",
+                    "speech_rate": "5.13 음절/초",
+                    "silence_ratio": "21.77%",
+                    "clarity_score": "91.1점"
+                },
+                "duration": "25.72초",
+                "total_silence_time": "5.6초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU091_78.wav",
+        "sentence_id": 78,
+        "results": {
+            "record_id": 128,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU091_78.wav",
+            "analysis_results": {
+                "sentence_id": 78,
+                "reference_text": "지금도 엄마 판다와 아기 판다 모두 건강한 상태라고 합니다. 엄마 아빠 판다인 아이바오와 러바오는, 2016년 시진핑 중국 국가주석이 한중 친선 도모의 상징으로 보내서 우리나라에 오게 됐고, 그 뒤 1,601일 만에 자연 번식에 성공한 겁니다. 누리꾼들은 '어쩜 이렇게 작고 귀여울 수가', '고귀한 생명의 탄생이네요. 많이 먹고 건강하게 자라길' 하는 등의 반응을 보였습니다.",
+                "recognized_text": "지금도 엄마 판다와 아기 판다 모두 건강한 상태라고 합니다. 엄마 아빠 판다인 아이바오와 러바오는 2016년 시진핑 중국 국가주석이 한중 친선 도모의 상징으로 보내서 우리나라에 오게 됐고 그 뒤 1600일 만에 자연 번식에 성공한 겁니다. 누리꾼들은 어쩜 이렇게 작고 귀여울 수가 고귀한 생명의 탄생이네요 많이 먹고 건강하게 자라길 하는 등의 반응을 보였습니다",
+                "metrics": {
+                    "articulation_accuracy": "93.17%",
+                    "speech_rate": "4.76 음절/초",
+                    "silence_ratio": "21.24%",
+                    "clarity_score": "92.34점"
+                },
+                "duration": "31.74초",
+                "total_silence_time": "6.74초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU092_79.wav",
+        "sentence_id": 79,
+        "results": {
+            "record_id": 129,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU092_79.wav",
+            "analysis_results": {
+                "sentence_id": 79,
+                "reference_text": "지금까지 이런 영화는 없었다, 한국영화 역대 매출 1위라는 대기록을 세운, 영화 `극한직업`이 수원 지역상권을 살린 공로를 인정받았습니다. `극한직업`은, 마약반 형사들이 위장 창업한 치킨집이 뜻하지 않게 유명해지면서 벌어지는 일을 다룬 영화죠. 수시로 등장하는 `수원왕갈비통닭` 이 많은 관객의 침샘을 자극했습니다.",
+                "recognized_text": "지금까지 이런 영화는 없었다. 한국 영화 매출 1위라는 대기록을 세운 영화 극한직업이 수원 지역 상권을 살린 공로를 인정받았습니다. 극한직업은 마약반 형사들이 위장 창업한 치킨집이 뜻하지 않게 유명해지면서 벌어지는 일을 다룬 영화죠. 수시로 등장하는 수원 왕갈비 통닭이 많은 관객의 침샘을 자극했습니다.",
+                "metrics": {
+                    "articulation_accuracy": "92.14%",
+                    "speech_rate": "5.1 음절/초",
+                    "silence_ratio": "19.98%",
+                    "clarity_score": "92.08점"
+                },
+                "duration": "25.48초",
+                "total_silence_time": "5.09초"
+            }
+        }
+    },
+    {
+        "filename": "merged_SPK082_SPK082SBSCU092_80.wav",
+        "sentence_id": 80,
+        "results": {
+            "record_id": 130,
+            "message": "분석 및 DB 저장 완료",
+            "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU092_80.wav",
+            "analysis_results": {
+                "sentence_id": 80,
+                "reference_text": "흥행이 이어질수록 영화 속 통닭을 맛보려는 사람들이 수원으로 몰렸고, 겨울 비수기에 매출이 아쉬웠던 먹자골목이 오랜만에 활기를 찾았습니다. 가게마다 관광객이 줄을 섰고 전체 매출이 30% 가량 늘었다고 하는데요. 이에 수원시가 직접 나서 감사함을 전했습니다. 수원의 통닭과 갈비를 전국에 알려 관광객을 끌어 모은 공로로, 염태영 수원시장이 어제 `극한직업` 제작진에게 감사패를 전달한 건데요.",
+                "recognized_text": "흥행이 이어질수록 영화 속 통닭을 맛보려는 사람들이 수원으로 몰렸고, 겨울 비수기에 매출이 아쉬웠던 먹자골목이 오랜만에 활기를 찾았습니다. 가게마다 관광객이 줄을 섰고 전체 매출이 30%가량 늘었다고 하는데요. 이에 수원시가 직접 나서 감사함을 전했습니다. 수원의 통닭과 갈비를 전국에 알려 관광객을 끌어모은 공로로 염태영 수원시장이 어제 극한직업 제작진에게 감사패를 전달한 건데요",
+                "metrics": {
+                    "articulation_accuracy": "97.65%",
+                    "speech_rate": "4.73 음절/초",
+                    "silence_ratio": "21.05%",
+                    "clarity_score": "94.61점"
+                },
+                "duration": "35.06초",
+                "total_silence_time": "7.38초"
+            }
+        }
+    }
+]
