@@ -14,6 +14,8 @@ except Exception as e:
 
 import shutil
 import sqlite3
+import difflib
+import json
 import whisper  # faster_whisper 대신 오리지널 라이브러리 사용
 from fastapi import FastAPI, UploadFile, File, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -43,9 +45,9 @@ DB_PATH = "voice_analysis(mk7).db"
 
 # 오리지널 Whisper 모델 로드 (가장 안전한 base 모델 + CPU 환경 강제 지정)
 print("오리지널 Whisper 모델 로드 중...")
-model = whisper.load_model("base", device="cpu")
+# model = whisper.load_model("base", device="cpu")
 # model = whisper.load_model("medium", device="cpu")
-# model = whisper.load_model("large-v3", device="cpu")
+model = whisper.load_model("large-v3", device="cpu")
 print("오리지널 Whisper 모델 로드 완벽하게 성공!")
 
 # --- [모듈] CER(조음 정확도) 계산 함수 ---
@@ -101,50 +103,74 @@ async def upload_audio(
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
     
-    # 1. 오리지널 Whisper 음성 인식 (파라미터 호환성 수정)
+    # 1. 오리지널 Whisper 음성 인식
     result = model.transcribe(
-        file_path, 
-        language="ko", 
+        file_path,
+        language="ko",
         word_timestamps=True,
         temperature=0.0,
-        no_speech_threshold=0.0, 
-        logprob_threshold=-1.0,  
-        compression_ratio_threshold=2.4, 
-        condition_on_previous_text=False 
+        no_speech_threshold=0.6,
+        logprob_threshold=0.0,
+        compression_ratio_threshold=2.4,
+        condition_on_previous_text=False
     )
-    
-    segments = result.get("segments", [])
-    recognized_text = result.get("text", "").strip()
-    
-    # 2. 정밀 침묵 분석 (오리지널 버전에 맞춰 Dictionary 접근 방식으로 변경)
-    total_duration = 0.0
-    total_spoken_time = 0.0 
-    total_silence = 0.0 
-    words_data = []
 
+    segments = result.get("segments", [])
+
+    # Whisper 단어 단위 재구성
+    words_data = []
     for segment in segments:
         if "words" in segment:
             words_data.extend(segment["words"])
 
     if words_data:
+        word_texts = []
+        for w in words_data:
+            txt = w.get("word") or w.get("text") or w.get("word_text")
+            if txt:
+                word_texts.append(txt)
+        recognized_text = " ".join(word_texts).strip()
+    else:
+        recognized_text = result.get("text", "").strip()
+    
+    # 2. 정밀 침묵 분석
+    total_duration = 0.0
+    total_spoken_time = 0.0 
+    total_silence = 0.0 
+
+    if words_data:
         total_duration = words_data[-1]["end"]
-        
         for word in words_data:
             total_spoken_time += (word["end"] - word["start"])
         
-        total_silence = total_duration - total_spoken_time
-        total_silence = max(0.0, total_silence)
+        total_silence = max(0.0, total_duration - total_spoken_time)
                 
     silence_ratio = round(total_silence / total_duration, 4) if total_duration > 0 else 0.0
 
-    # 3. DB에서 기준 문장 가져오기
+    # 3. DB에서 기준 문장 및 아나운서 기준 데이터 가져오기 (수정됨 🌟)
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
-    cursor.execute("SELECT text FROM sentence_table WHERE sentence_id = ?", (sentence_id,))
+    cursor.execute("""
+        SELECT text, anchor_duration, anchor_silence_timestamps 
+        FROM sentence_table 
+        WHERE sentence_id = ?
+    """, (sentence_id,))
     row = cursor.fetchone()
     conn.close()
     if not row: raise HTTPException(status_code=404, detail="문장 없음")
+    
     reference_text = row[0]
+    anchor_duration = row[1] or 0.0
+    anchor_silence_data = row[2] # JSON 텍스트
+
+    # 아나운서 총 침묵 시간 파싱
+    anchor_silence = 0.0
+    if anchor_silence_data:
+        try:
+            silence_dict = json.loads(anchor_silence_data)
+            anchor_silence = silence_dict.get("total_silence", 0.0)
+        except Exception:
+            pass
 
     # 4. 종합 지표 계산
     cer_val = calculate_cer(reference_text, recognized_text)
@@ -160,9 +186,52 @@ async def upload_audio(
 
     clarity_score = (articulation_score * 0.5) + (rate_score * 0.3) + ((1 - silence_ratio) * 0.2)
 
-    # 5. DB에 녹음 기록과 분석 결과 저장하기
-    record_id = None
+    # ==========================================
+    # 🌟 추가 모듈: 틀린 단어 추출 (Module A)
+    # ==========================================
+    ref_words = reference_text.split()
+    rec_words = recognized_text.split()
+    d = difflib.Differ()
+    diff = list(d.compare(ref_words, rec_words))
+    # 원문에는 있지만 사용자가 안 읽거나 다르게 읽은 단어 추출 ('- ' 기호가 붙은 단어)
+    error_words = [word[2:] for word in diff if word.startswith('- ')]
 
+    # ==========================================
+    # 🌟 추가 모듈: 맞춤형 피드백 생성 (Module B, C)
+    # ==========================================
+    feedback_parts = []
+    
+    # 1) 속도/길이 피드백
+    if anchor_duration > 0:
+        diff_duration = total_duration - anchor_duration
+        if diff_duration > 3.0:
+            feedback_parts.append(f"아나운서보다 {abs(round(diff_duration, 1))}초 정도 느립니다. 조금 더 탄력있게 읽어보세요.")
+        elif diff_duration < -3.0:
+            feedback_parts.append(f"아나운서보다 {abs(round(diff_duration, 1))}초 정도 빠릅니다. 조금 더 여유를 가져도 좋습니다.")
+        else:
+            feedback_parts.append("말하기 속도가 아나운서와 매우 비슷하여 안정적입니다.")
+            
+    # 2) 침묵(호흡) 피드백
+    if anchor_silence > 0:
+        diff_silence = total_silence - anchor_silence
+        if diff_silence > 2.0:
+            feedback_parts.append("단어 사이에 머뭇거리는 시간이 많습니다. 문맥 단위로 호흡을 이어가보세요.")
+        elif diff_silence < -1.0:
+            feedback_parts.append("호흡 구간이 부족합니다. 마침표나 쉼표에서 확실히 쉬어주세요.")
+            
+    # 3) 발음 피드백
+    if error_words:
+        # 최대 3개까지만 예시로 보여줌
+        example_words = ", ".join([f"'{w}'" for w in error_words[:3]])
+        feedback_parts.append(f"{example_words} 등의 발음이 다소 아쉽습니다. 입을 크게 벌려 정확하게 짚고 넘어가세요.")
+    else:
+        feedback_parts.append("발음이 아주 정확합니다! 완벽해요.")
+
+    feedback_message = " ".join(feedback_parts)
+
+
+    # 5. DB에 녹음 기록과 분석 결과 저장하기 (수정됨 🌟)
+    record_id = None
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
@@ -180,11 +249,17 @@ async def upload_audio(
         
         record_id = cursor.lastrowid 
 
+        # 🌟 error_words와 feedback_message 컬럼에 데이터 추가!
         cursor.execute("""
                 INSERT INTO analysis_result_table 
-                (record_id, original_text, recognized_text, cer_score, speech_rate, silence_ratio, clarity_score) 
-                VALUES (?, ?, ?, ?, ?, ?, ?)
-            """, (record_id, reference_text, recognized_text, round(cer_val, 4), speech_rate, silence_ratio, round(clarity_score, 2)))
+                (record_id, original_text, recognized_text, cer_score, speech_rate, silence_ratio, clarity_score, error_words, feedback_message) 
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                record_id, reference_text, recognized_text, 
+                round(cer_val, 4), speech_rate, silence_ratio, round(clarity_score, 2), 
+                json.dumps(error_words, ensure_ascii=False), # 리스트를 JSON 문자열로 저장
+                feedback_message
+            ))
         
         conn.commit()
         
@@ -197,13 +272,13 @@ async def upload_audio(
         raise HTTPException(status_code=500, detail="DB 저장에 실패했습니다.")
 
 
-# --- [수정된 부분] 6. 아나운서 음성 파일 경로 자동 찾기 ---
+# --- 6. 아나운서 음성 파일 경로 자동 찾기 ---
     paragraph = str(sentence_id)
     announcer_url = None
     
-    # 폴더 안에 있는 모든 파일을 뒤져서, 이름이 '_{sentence_id}.wav'로 끝나는 파일을 찾습니다.
     target_suffix = f"_{paragraph}.wav"
     
+    # MERGED_DIR 변수가 상단에 잘 정의되어 있다고 가정합니다.
     if os.path.exists(MERGED_DIR):
         for filename in os.listdir(MERGED_DIR):
             if filename.endswith(target_suffix):
@@ -214,15 +289,17 @@ async def upload_audio(
     if not announcer_url:
         print(f"❌ 아나운서 파일을 찾지 못했습니다. (찾으려는 단락 번호: {paragraph})")
     
-    # 7. 결과 반환 (announcer_voice_url 추가됨!)
+    # 7. 결과 반환 (프론트엔드에도 피드백 전달 🌟)
     return {
         "record_id": record_id,
         "message": "분석 및 DB 저장 완료",
-        "announcer_voice_url": announcer_url, # 👈 프론트엔드가 사용할 URL
+        "announcer_voice_url": announcer_url,
         "analysis_results": {
             "sentence_id": sentence_id,
             "reference_text": reference_text,
             "recognized_text": recognized_text,
+            "error_words": error_words,           # 👈 새롭게 반환
+            "feedback_message": feedback_message, # 👈 새롭게 반환
             "metrics": {
                 "articulation_accuracy": f"{round(articulation_score * 100, 2)}%",
                 "speech_rate": f"{speech_rate} 음절/초",

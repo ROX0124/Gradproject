@@ -3,7 +3,7 @@
         "filename": "merged_SPK014_SPK014KBSCU001_1.wav",
         "sentence_id": 1,
         "results": {
-            "record_id": 51,
+            "record_id": 140,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU001_1.wav",
             "analysis_results": {
@@ -25,7 +25,7 @@
         "filename": "merged_SPK014_SPK014KBSCU001_2.wav",
         "sentence_id": 2,
         "results": {
-            "record_id": 52,
+            "record_id": 141,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU001_2.wav",
             "analysis_results": {
@@ -47,7 +47,7 @@
         "filename": "merged_SPK014_SPK014KBSCU001_3.wav",
         "sentence_id": 3,
         "results": {
-            "record_id": 53,
+            "record_id": 142,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU001_3.wav",
             "analysis_results": {
@@ -69,7 +69,7 @@
         "filename": "merged_SPK014_SPK014KBSCU004_4.wav",
         "sentence_id": 4,
         "results": {
-            "record_id": 54,
+            "record_id": 143,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU004_4.wav",
             "analysis_results": {
@@ -91,7 +91,7 @@
         "filename": "merged_SPK014_SPK014KBSCU004_5.wav",
         "sentence_id": 5,
         "results": {
-            "record_id": 55,
+            "record_id": 144,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU004_5.wav",
             "analysis_results": {
@@ -113,7 +113,7 @@
         "filename": "merged_SPK014_SPK014KBSCU006_6.wav",
         "sentence_id": 6,
         "results": {
-            "record_id": 56,
+            "record_id": 145,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU006_6.wav",
             "analysis_results": {
@@ -135,7 +135,7 @@
         "filename": "merged_SPK014_SPK014KBSCU006_7.wav",
         "sentence_id": 7,
         "results": {
-            "record_id": 57,
+            "record_id": 146,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU006_7.wav",
             "analysis_results": {
@@ -157,7 +157,7 @@
         "filename": "merged_SPK014_SPK014KBSCU008_8.wav",
         "sentence_id": 8,
         "results": {
-            "record_id": 58,
+            "record_id": 147,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU008_8.wav",
             "analysis_results": {
@@ -179,7 +179,7 @@
         "filename": "merged_SPK014_SPK014KBSCU008_9.wav",
         "sentence_id": 9,
         "results": {
-            "record_id": 59,
+            "record_id": 148,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU008_9.wav",
             "analysis_results": {
@@ -201,7 +201,7 @@
         "filename": "merged_SPK014_SPK014KBSCU009_10.wav",
         "sentence_id": 10,
         "results": {
-            "record_id": 60,
+            "record_id": 149,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU009_10.wav",
             "analysis_results": {
@@ -223,7 +223,7 @@
         "filename": "merged_SPK014_SPK014KBSCU009_11.wav",
         "sentence_id": 11,
         "results": {
-            "record_id": 61,
+            "record_id": 150,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU009_11.wav",
             "analysis_results": {
@@ -245,7 +245,7 @@
         "filename": "merged_SPK014_SPK014KBSCU009_12.wav",
         "sentence_id": 12,
         "results": {
-            "record_id": 62,
+            "record_id": 151,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSCU009_12.wav",
             "analysis_results": {
@@ -267,7 +267,7 @@
         "filename": "merged_SPK014_SPK014KBSIN034_13.wav",
         "sentence_id": 13,
         "results": {
-            "record_id": 63,
+            "record_id": 152,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN034_13.wav",
             "analysis_results": {
@@ -289,21 +289,21 @@
         "filename": "merged_SPK014_SPK014KBSIN034_14.wav",
         "sentence_id": 14,
         "results": {
-            "record_id": 64,
+            "record_id": 153,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN034_14.wav",
             "analysis_results": {
                 "sentence_id": 14,
                 "reference_text": "전자 투표 시스템 취약점을 찾고 보안 강화를 위해 마련된 이 대회에는 총 15만스위스 프랑, 우리 돈 1억 6천만 원의 상금도 걸려있습니다. 스위스 정부는 특히 투표 수 조작에 성공한 사람은 최고 수준의 해킹으로 인정하고, 우리 돈 약 5,600만원의 상금을 준다고 밝혔습니다.",
-                "recognized_text": "전자투표 시스템 취약점을 찾고 보안 강화를 위해 마련된 이 대회에는 총 15만 스위스 프랑, 우리 돈 1억 6천만 원의 상금도 걸려 있습니다.",
+                "recognized_text": "전자투표 시스템 취약점을 찾고 보안 강화를 위해 마련된 이 대회에는 총 15만 스위스 프랑, 우리 돈 1억 6천만 원의 상금도 걸려 있습니다. 스위스 정부는 특히 투표수 조작에 성공한 사람은 최고 수준의 해킹으로 인정하고 우리 돈 약 5천6백만 원의 상금을 준다고 밝혔습니다.",
                 "metrics": {
-                    "articulation_accuracy": "50.0%",
-                    "speech_rate": "5.63 음절/초",
-                    "silence_ratio": "0.97%",
-                    "clarity_score": "74.81점"
+                    "articulation_accuracy": "96.55%",
+                    "speech_rate": "5.08 음절/초",
+                    "silence_ratio": "12.88%",
+                    "clarity_score": "95.7점"
                 },
-                "duration": "10.3초",
-                "total_silence_time": "0.1초"
+                "duration": "22.44초",
+                "total_silence_time": "2.89초"
             }
         }
     },
@@ -311,7 +311,7 @@
         "filename": "merged_SPK014_SPK014KBSIN035_15.wav",
         "sentence_id": 15,
         "results": {
-            "record_id": 65,
+            "record_id": 154,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN035_15.wav",
             "analysis_results": {
@@ -333,7 +333,7 @@
         "filename": "merged_SPK014_SPK014KBSIN035_16.wav",
         "sentence_id": 16,
         "results": {
-            "record_id": 66,
+            "record_id": 155,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN035_16.wav",
             "analysis_results": {
@@ -355,7 +355,7 @@
         "filename": "merged_SPK014_SPK014KBSIN036_17.wav",
         "sentence_id": 17,
         "results": {
-            "record_id": 67,
+            "record_id": 156,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN036_17.wav",
             "analysis_results": {
@@ -377,7 +377,7 @@
         "filename": "merged_SPK014_SPK014KBSIN036_18.wav",
         "sentence_id": 18,
         "results": {
-            "record_id": 68,
+            "record_id": 157,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN036_18.wav",
             "analysis_results": {
@@ -399,7 +399,7 @@
         "filename": "merged_SPK014_SPK014KBSIN036_19.wav",
         "sentence_id": 19,
         "results": {
-            "record_id": 69,
+            "record_id": 158,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN036_19.wav",
             "analysis_results": {
@@ -421,7 +421,7 @@
         "filename": "merged_SPK014_SPK014KBSIN037_20.wav",
         "sentence_id": 20,
         "results": {
-            "record_id": 70,
+            "record_id": 159,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN037_20.wav",
             "analysis_results": {
@@ -443,7 +443,7 @@
         "filename": "merged_SPK014_SPK014KBSIN037_21.wav",
         "sentence_id": 21,
         "results": {
-            "record_id": 71,
+            "record_id": 160,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN037_21.wav",
             "analysis_results": {
@@ -465,7 +465,7 @@
         "filename": "merged_SPK014_SPK014KBSIN038_22.wav",
         "sentence_id": 22,
         "results": {
-            "record_id": 72,
+            "record_id": 161,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_22.wav",
             "analysis_results": {
@@ -487,7 +487,7 @@
         "filename": "merged_SPK014_SPK014KBSIN038_23.wav",
         "sentence_id": 23,
         "results": {
-            "record_id": 73,
+            "record_id": 162,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_23.wav",
             "analysis_results": {
@@ -509,7 +509,7 @@
         "filename": "merged_SPK014_SPK014KBSIN038_24.wav",
         "sentence_id": 24,
         "results": {
-            "record_id": 74,
+            "record_id": 163,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_24.wav",
             "analysis_results": {
@@ -531,7 +531,7 @@
         "filename": "merged_SPK014_SPK014KBSIN038_25.wav",
         "sentence_id": 25,
         "results": {
-            "record_id": 75,
+            "record_id": 164,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK014_SPK014KBSIN038_25.wav",
             "analysis_results": {
@@ -553,7 +553,7 @@
         "filename": "merged_SPK035_SPK035KBSEC002_26.wav",
         "sentence_id": 26,
         "results": {
-            "record_id": 76,
+            "record_id": 165,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_26.wav",
             "analysis_results": {
@@ -575,7 +575,7 @@
         "filename": "merged_SPK035_SPK035KBSEC002_27.wav",
         "sentence_id": 27,
         "results": {
-            "record_id": 77,
+            "record_id": 166,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_27.wav",
             "analysis_results": {
@@ -597,7 +597,7 @@
         "filename": "merged_SPK035_SPK035KBSEC002_28.wav",
         "sentence_id": 28,
         "results": {
-            "record_id": 78,
+            "record_id": 167,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_28.wav",
             "analysis_results": {
@@ -619,7 +619,7 @@
         "filename": "merged_SPK035_SPK035KBSEC002_29.wav",
         "sentence_id": 29,
         "results": {
-            "record_id": 79,
+            "record_id": 168,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_29.wav",
             "analysis_results": {
@@ -641,7 +641,7 @@
         "filename": "merged_SPK035_SPK035KBSEC002_30.wav",
         "sentence_id": 30,
         "results": {
-            "record_id": 80,
+            "record_id": 169,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_30.wav",
             "analysis_results": {
@@ -663,7 +663,7 @@
         "filename": "merged_SPK035_SPK035KBSEC002_31.wav",
         "sentence_id": 31,
         "results": {
-            "record_id": 81,
+            "record_id": 170,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC002_31.wav",
             "analysis_results": {
@@ -685,7 +685,7 @@
         "filename": "merged_SPK035_SPK035KBSEC004_32.wav",
         "sentence_id": 32,
         "results": {
-            "record_id": 82,
+            "record_id": 171,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_32.wav",
             "analysis_results": {
@@ -707,7 +707,7 @@
         "filename": "merged_SPK035_SPK035KBSEC004_33.wav",
         "sentence_id": 33,
         "results": {
-            "record_id": 83,
+            "record_id": 172,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_33.wav",
             "analysis_results": {
@@ -729,7 +729,7 @@
         "filename": "merged_SPK035_SPK035KBSEC004_34.wav",
         "sentence_id": 34,
         "results": {
-            "record_id": 84,
+            "record_id": 173,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_34.wav",
             "analysis_results": {
@@ -751,7 +751,7 @@
         "filename": "merged_SPK035_SPK035KBSEC004_35.wav",
         "sentence_id": 35,
         "results": {
-            "record_id": 85,
+            "record_id": 174,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSEC004_35.wav",
             "analysis_results": {
@@ -773,7 +773,7 @@
         "filename": "merged_SPK035_SPK035KBSIN001_36.wav",
         "sentence_id": 36,
         "results": {
-            "record_id": 86,
+            "record_id": 175,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN001_36.wav",
             "analysis_results": {
@@ -795,7 +795,7 @@
         "filename": "merged_SPK035_SPK035KBSIN001_37.wav",
         "sentence_id": 37,
         "results": {
-            "record_id": 87,
+            "record_id": 176,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN001_37.wav",
             "analysis_results": {
@@ -817,7 +817,7 @@
         "filename": "merged_SPK035_SPK035KBSIN001_38.wav",
         "sentence_id": 38,
         "results": {
-            "record_id": 88,
+            "record_id": 177,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN001_38.wav",
             "analysis_results": {
@@ -839,7 +839,7 @@
         "filename": "merged_SPK035_SPK035KBSIN005_39.wav",
         "sentence_id": 39,
         "results": {
-            "record_id": 89,
+            "record_id": 178,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_39.wav",
             "analysis_results": {
@@ -861,7 +861,7 @@
         "filename": "merged_SPK035_SPK035KBSIN005_40.wav",
         "sentence_id": 40,
         "results": {
-            "record_id": 90,
+            "record_id": 179,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_40.wav",
             "analysis_results": {
@@ -883,7 +883,7 @@
         "filename": "merged_SPK035_SPK035KBSIN005_41.wav",
         "sentence_id": 41,
         "results": {
-            "record_id": 91,
+            "record_id": 180,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_41.wav",
             "analysis_results": {
@@ -905,7 +905,7 @@
         "filename": "merged_SPK035_SPK035KBSIN005_42.wav",
         "sentence_id": 42,
         "results": {
-            "record_id": 92,
+            "record_id": 181,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN005_42.wav",
             "analysis_results": {
@@ -927,7 +927,7 @@
         "filename": "merged_SPK035_SPK035KBSIN008_43.wav",
         "sentence_id": 43,
         "results": {
-            "record_id": 93,
+            "record_id": 182,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN008_43.wav",
             "analysis_results": {
@@ -949,7 +949,7 @@
         "filename": "merged_SPK035_SPK035KBSIN008_44.wav",
         "sentence_id": 44,
         "results": {
-            "record_id": 94,
+            "record_id": 183,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK035_SPK035KBSIN008_44.wav",
             "analysis_results": {
@@ -971,7 +971,7 @@
         "filename": "merged_SPK064_SPK064KBSCU045_45.wav",
         "sentence_id": 45,
         "results": {
-            "record_id": 95,
+            "record_id": 184,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU045_45.wav",
             "analysis_results": {
@@ -993,7 +993,7 @@
         "filename": "merged_SPK064_SPK064KBSCU045_46.wav",
         "sentence_id": 46,
         "results": {
-            "record_id": 96,
+            "record_id": 185,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU045_46.wav",
             "analysis_results": {
@@ -1015,7 +1015,7 @@
         "filename": "merged_SPK064_SPK064KBSCU046_47.wav",
         "sentence_id": 47,
         "results": {
-            "record_id": 97,
+            "record_id": 186,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU046_47.wav",
             "analysis_results": {
@@ -1037,7 +1037,7 @@
         "filename": "merged_SPK064_SPK064KBSCU046_48.wav",
         "sentence_id": 48,
         "results": {
-            "record_id": 98,
+            "record_id": 187,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU046_48.wav",
             "analysis_results": {
@@ -1059,7 +1059,7 @@
         "filename": "merged_SPK064_SPK064KBSCU046_49.wav",
         "sentence_id": 49,
         "results": {
-            "record_id": 99,
+            "record_id": 188,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU046_49.wav",
             "analysis_results": {
@@ -1081,7 +1081,7 @@
         "filename": "merged_SPK064_SPK064KBSCU047_50.wav",
         "sentence_id": 50,
         "results": {
-            "record_id": 100,
+            "record_id": 189,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU047_50.wav",
             "analysis_results": {
@@ -1103,7 +1103,7 @@
         "filename": "merged_SPK064_SPK064KBSCU047_51.wav",
         "sentence_id": 51,
         "results": {
-            "record_id": 101,
+            "record_id": 190,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU047_51.wav",
             "analysis_results": {
@@ -1125,7 +1125,7 @@
         "filename": "merged_SPK064_SPK064KBSCU047_52.wav",
         "sentence_id": 52,
         "results": {
-            "record_id": 102,
+            "record_id": 191,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU047_52.wav",
             "analysis_results": {
@@ -1147,7 +1147,7 @@
         "filename": "merged_SPK064_SPK064KBSCU048_53.wav",
         "sentence_id": 53,
         "results": {
-            "record_id": 103,
+            "record_id": 192,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU048_53.wav",
             "analysis_results": {
@@ -1169,7 +1169,7 @@
         "filename": "merged_SPK064_SPK064KBSCU048_54.wav",
         "sentence_id": 54,
         "results": {
-            "record_id": 104,
+            "record_id": 193,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU048_54.wav",
             "analysis_results": {
@@ -1191,7 +1191,7 @@
         "filename": "merged_SPK064_SPK064KBSCU049_55.wav",
         "sentence_id": 55,
         "results": {
-            "record_id": 105,
+            "record_id": 194,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU049_55.wav",
             "analysis_results": {
@@ -1213,7 +1213,7 @@
         "filename": "merged_SPK064_SPK064KBSCU049_56.wav",
         "sentence_id": 56,
         "results": {
-            "record_id": 106,
+            "record_id": 195,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU049_56.wav",
             "analysis_results": {
@@ -1235,7 +1235,7 @@
         "filename": "merged_SPK064_SPK064KBSCU049_57.wav",
         "sentence_id": 57,
         "results": {
-            "record_id": 107,
+            "record_id": 196,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK064_SPK064KBSCU049_57.wav",
             "analysis_results": {
@@ -1257,7 +1257,7 @@
         "filename": "merged_SPK082_SPK082SBSCU081_58.wav",
         "sentence_id": 58,
         "results": {
-            "record_id": 108,
+            "record_id": 197,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU081_58.wav",
             "analysis_results": {
@@ -1279,7 +1279,7 @@
         "filename": "merged_SPK082_SPK082SBSCU081_59.wav",
         "sentence_id": 59,
         "results": {
-            "record_id": 109,
+            "record_id": 198,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU081_59.wav",
             "analysis_results": {
@@ -1301,7 +1301,7 @@
         "filename": "merged_SPK082_SPK082SBSCU082_60.wav",
         "sentence_id": 60,
         "results": {
-            "record_id": 110,
+            "record_id": 199,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU082_60.wav",
             "analysis_results": {
@@ -1323,7 +1323,7 @@
         "filename": "merged_SPK082_SPK082SBSCU082_61.wav",
         "sentence_id": 61,
         "results": {
-            "record_id": 111,
+            "record_id": 200,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU082_61.wav",
             "analysis_results": {
@@ -1345,7 +1345,7 @@
         "filename": "merged_SPK082_SPK082SBSCU083_62.wav",
         "sentence_id": 62,
         "results": {
-            "record_id": 112,
+            "record_id": 201,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU083_62.wav",
             "analysis_results": {
@@ -1367,7 +1367,7 @@
         "filename": "merged_SPK082_SPK082SBSCU083_63.wav",
         "sentence_id": 63,
         "results": {
-            "record_id": 113,
+            "record_id": 202,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU083_63.wav",
             "analysis_results": {
@@ -1389,7 +1389,7 @@
         "filename": "merged_SPK082_SPK082SBSCU083_64.wav",
         "sentence_id": 64,
         "results": {
-            "record_id": 114,
+            "record_id": 203,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU083_64.wav",
             "analysis_results": {
@@ -1411,7 +1411,7 @@
         "filename": "merged_SPK082_SPK082SBSCU086_65.wav",
         "sentence_id": 65,
         "results": {
-            "record_id": 115,
+            "record_id": 204,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU086_65.wav",
             "analysis_results": {
@@ -1433,7 +1433,7 @@
         "filename": "merged_SPK082_SPK082SBSCU086_66.wav",
         "sentence_id": 66,
         "results": {
-            "record_id": 116,
+            "record_id": 205,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU086_66.wav",
             "analysis_results": {
@@ -1455,7 +1455,7 @@
         "filename": "merged_SPK082_SPK082SBSCU087_67.wav",
         "sentence_id": 67,
         "results": {
-            "record_id": 117,
+            "record_id": 206,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU087_67.wav",
             "analysis_results": {
@@ -1477,7 +1477,7 @@
         "filename": "merged_SPK082_SPK082SBSCU087_68.wav",
         "sentence_id": 68,
         "results": {
-            "record_id": 118,
+            "record_id": 207,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU087_68.wav",
             "analysis_results": {
@@ -1499,7 +1499,7 @@
         "filename": "merged_SPK082_SPK082SBSCU088_69.wav",
         "sentence_id": 69,
         "results": {
-            "record_id": 119,
+            "record_id": 208,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU088_69.wav",
             "analysis_results": {
@@ -1521,7 +1521,7 @@
         "filename": "merged_SPK082_SPK082SBSCU088_70.wav",
         "sentence_id": 70,
         "results": {
-            "record_id": 120,
+            "record_id": 209,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU088_70.wav",
             "analysis_results": {
@@ -1543,7 +1543,7 @@
         "filename": "merged_SPK082_SPK082SBSCU089_71.wav",
         "sentence_id": 71,
         "results": {
-            "record_id": 121,
+            "record_id": 210,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU089_71.wav",
             "analysis_results": {
@@ -1565,7 +1565,7 @@
         "filename": "merged_SPK082_SPK082SBSCU089_72.wav",
         "sentence_id": 72,
         "results": {
-            "record_id": 122,
+            "record_id": 211,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU089_72.wav",
             "analysis_results": {
@@ -1587,7 +1587,7 @@
         "filename": "merged_SPK082_SPK082SBSCU089_73.wav",
         "sentence_id": 73,
         "results": {
-            "record_id": 123,
+            "record_id": 212,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU089_73.wav",
             "analysis_results": {
@@ -1609,7 +1609,7 @@
         "filename": "merged_SPK082_SPK082SBSCU090_74.wav",
         "sentence_id": 74,
         "results": {
-            "record_id": 124,
+            "record_id": 213,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU090_74.wav",
             "analysis_results": {
@@ -1631,7 +1631,7 @@
         "filename": "merged_SPK082_SPK082SBSCU090_75.wav",
         "sentence_id": 75,
         "results": {
-            "record_id": 125,
+            "record_id": 214,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU090_75.wav",
             "analysis_results": {
@@ -1653,7 +1653,7 @@
         "filename": "merged_SPK082_SPK082SBSCU091_76.wav",
         "sentence_id": 76,
         "results": {
-            "record_id": 126,
+            "record_id": 215,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU091_76.wav",
             "analysis_results": {
@@ -1675,7 +1675,7 @@
         "filename": "merged_SPK082_SPK082SBSCU091_77.wav",
         "sentence_id": 77,
         "results": {
-            "record_id": 127,
+            "record_id": 216,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU091_77.wav",
             "analysis_results": {
@@ -1697,7 +1697,7 @@
         "filename": "merged_SPK082_SPK082SBSCU091_78.wav",
         "sentence_id": 78,
         "results": {
-            "record_id": 128,
+            "record_id": 217,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU091_78.wav",
             "analysis_results": {
@@ -1719,7 +1719,7 @@
         "filename": "merged_SPK082_SPK082SBSCU092_79.wav",
         "sentence_id": 79,
         "results": {
-            "record_id": 129,
+            "record_id": 218,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU092_79.wav",
             "analysis_results": {
@@ -1741,7 +1741,7 @@
         "filename": "merged_SPK082_SPK082SBSCU092_80.wav",
         "sentence_id": 80,
         "results": {
-            "record_id": 130,
+            "record_id": 219,
             "message": "분석 및 DB 저장 완료",
             "announcer_voice_url": "/announcer_audio/merged_SPK082_SPK082SBSCU092_80.wav",
             "analysis_results": {
