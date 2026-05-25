@@ -16,8 +16,8 @@
 ### 현재 상태
 ✅ FastAPI 백엔드 정상 실행  
 ✅ 프론트엔드 UI 기본 로드 성공  
-⚠️ **문제**: 버튼 클릭 시 API 연결 실패  
-- 원인 의심: 프론트 코드 내 남아있는 localhost/127.0.0.1 절대 URL 또는 캐시 문제
+✅ 프론트엔드 API 호출은 같은 origin 상대 경로 사용
+✅ SQLite 기본 테이블은 서버 시작 시 자동 생성/보강
 
 ### 배포 구조
 ```
@@ -165,18 +165,21 @@ fetch('http://speech.vocal-fit.com/api/sentence/random')
 ```
 
 ### 캐시 버스팅
-프로덕션에서 script.js 업데이트 시 캐시 문제 해결:
+현재 프론트 로직은 `index.html` inline script에 있으므로 루트 응답에 `Cache-Control: no-store`와 `app-version` 메타를 적용합니다. 나중에 `script.js`나 `style.css`로 분리하면 버전 쿼리를 같이 올리세요.
 ```html
 <script src="script.js?v=20260525-1"></script>
+<link rel="stylesheet" href="style.css?v=20260525-1">
 ```
 
 ---
 
-## 6. 현재 문제 & 수정 체크리스트
+## 6. API/DB 체크리스트
 
-### 증상
-- ✅ speech.vocal-fit.com 홈페이지 로드됨
-- ❌ 버튼 클릭 시 "FastAPI 실행 중인지 확인하세요" 에러
+### 정상 조건
+- `GET /api/sentence/random` route가 등록되어 있어야 함
+- `GET /api/history`는 테이블이 비어 있거나 새 DB여도 500이 아니라 JSON 배열을 반환해야 함
+- `POST /upload`와 `GET /api/history`는 같은 `speech_record_table`/`analysis_result_table` schema를 바라봐야 함
+- DB 보강은 `CREATE TABLE IF NOT EXISTS`와 누락 컬럼 `ALTER TABLE ADD COLUMN`만 사용하고 기존 데이터를 삭제하지 않음
 
 ### 원인 분석 체크리스트
 

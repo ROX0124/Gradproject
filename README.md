@@ -81,6 +81,8 @@ cloudflared tunnel run speech-web-dev
 | GET | `/api/drill/accumulated-words` | 훈련용 누적 단어 조회 |
 | POST | `/api/drill/check` | 발음 검증 |
 
+서버 시작 시 SQLite 테이블은 `CREATE TABLE IF NOT EXISTS`로 자동 보장됩니다. 기존 DB가 있으면 삭제하지 않고, 누락 컬럼만 보강합니다. `sentence_table`이 비어 있으면 개발용 fallback 문장을 넣어 `/api/sentence/random`이 404로 죽지 않게 합니다.
+
 ## 프론트엔드 URL 규칙
 
 **중요**: 모든 fetch 호출은 **상대 경로**를 사용해야 합니다.
@@ -119,8 +121,8 @@ curl http://127.0.0.1:8080/api/history
 
 ### 3. 브라우저 DevTools 확인
 - F12 → Network 탭 열기
-- 모든 API 호출이 `localhost:8080` 기반의 상대 경로여야 함
-- 절대 URL(`http://127.0.0.1`, ngrok 등)이 보이면 안 됨
+- 모든 API 호출이 현재 origin 기준의 상대 경로여야 함
+- API 요청에 절대 URL(`http://127.0.0.1`, `http://localhost`, ngrok 등)이 보이면 안 됨
 
 ## 외부 도메인 배포 (speech.vocal-fit.com)
 
@@ -157,15 +159,16 @@ cloudflared tunnel run speech-web-dev
 
 ### 개발 중 캐시 문제
 
-`index.html` 또는 `script.js`를 수정할 때, 브라우저 캐시 때문에 변경이 반영되지 않을 수 있습니다.
+`index.html` 또는 정적 JS/CSS를 수정할 때, 브라우저 캐시 때문에 변경이 반영되지 않을 수 있습니다. 현재 프론트 로직은 `index.html` inline script에 있으므로 루트 응답에 `Cache-Control: no-store`를 적용하고, `app-version` 메타 값을 함께 올립니다.
 
 **해결책**:
 1. **DevTools 캐시 비활성화**
    - F12 → Network 탭 → "Disable cache" 체크
 
-2. **버전 쿼리 추가** (프로덕션)
+2. **분리된 정적 파일이 생기면 버전 쿼리 추가** (프로덕션)
    ```html
    <script src="script.js?v=20260525"></script>
+   <link rel="stylesheet" href="style.css?v=20260525">
    ```
 
 3. **No-Cache 헤더** (FastAPI 응답)

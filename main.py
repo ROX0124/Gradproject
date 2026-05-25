@@ -23,6 +23,11 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI(title="음성 분석 시스템 API")
 
+STATIC_DIR = "static"
+if not os.path.exists(STATIC_DIR):
+    os.makedirs(STATIC_DIR)
+app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
+
 MERGED_DIR = "merged_voices_final"
 if not os.path.exists(MERGED_DIR):
     os.makedirs(MERGED_DIR)
@@ -42,6 +47,156 @@ app.add_middleware(
 )
 
 DB_PATH = "voice_analysis(mk7).db"
+APP_VERSION = "20260525-4"
+
+FALLBACK_SENTENCES = [
+    {
+        "news_id": "fallback",
+        "paragraph_seq": 1,
+        "text": "테스트 문장입니다.",
+        "guided_text": "테스트 문장입니다.",
+    },
+    {
+        "news_id": "fallback",
+        "paragraph_seq": 2,
+        "text": "오늘도 또박또박 말하기를 연습합니다.",
+        "guided_text": "오늘도 또박또박 말하기를 연습합니다.",
+    },
+]
+
+
+def _column_exists(cursor, table_name, column_name):
+    cursor.execute(f"PRAGMA table_info({table_name})")
+    return any(row[1] == column_name for row in cursor.fetchall())
+
+
+def _add_column_if_missing(cursor, table_name, column_name, column_type):
+    if not _column_exists(cursor, table_name, column_name):
+        cursor.execute(f"ALTER TABLE {table_name} ADD COLUMN {column_name} {column_type}")
+
+
+def ensure_database():
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute("PRAGMA foreign_keys = ON")
+    cursor.executescript("""
+        CREATE TABLE IF NOT EXISTS user_table (
+            user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            total_score FLOAT
+        );
+
+        CREATE TABLE IF NOT EXISTS sentence_table (
+            sentence_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            news_id TEXT,
+            paragraph_seq INTEGER,
+            text TEXT NOT NULL,
+            guided_text TEXT,
+            length INTEGER DEFAULT 0,
+            eojeol_count INTEGER,
+            eumjeol_count INTEGER,
+            anchor_duration REAL,
+            anchor_silence_timestamps TEXT
+        );
+
+        CREATE TABLE IF NOT EXISTS speech_record_table (
+            record_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            user_id INTEGER,
+            sentence_id INTEGER,
+            audio_path TEXT NOT NULL,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (user_id) REFERENCES user_table(user_id),
+            FOREIGN KEY (sentence_id) REFERENCES sentence_table(sentence_id)
+        );
+
+        CREATE TABLE IF NOT EXISTS analysis_result_table (
+            result_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            record_id INTEGER,
+            original_text TEXT,
+            recognized_text TEXT,
+            cer_score REAL,
+            speech_rate REAL,
+            silence_ratio REAL,
+            clarity_score REAL,
+            error_words TEXT,
+            feedback_message TEXT,
+            duration REAL,
+            comparison_map TEXT,
+            user_timestamps TEXT,
+            announcer_voice_url TEXT,
+            user_voice_url TEXT,
+            articulation_accuracy_fmt TEXT,
+            speech_rate_fmt TEXT,
+            silence_ratio_fmt TEXT,
+            clarity_score_fmt TEXT,
+            duration_fmt TEXT,
+            target_bpm INTEGER,
+            analysis_time DATETIME DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (record_id) REFERENCES speech_record_table(record_id)
+        );
+    """)
+
+    sentence_columns = [
+        ("guided_text", "TEXT"),
+        ("length", "INTEGER DEFAULT 0"),
+        ("eojeol_count", "INTEGER"),
+        ("eumjeol_count", "INTEGER"),
+        ("anchor_duration", "REAL"),
+        ("anchor_silence_timestamps", "TEXT"),
+    ]
+    analysis_columns = [
+        ("original_text", "TEXT"),
+        ("cer_score", "REAL"),
+        ("speech_rate", "REAL"),
+        ("silence_ratio", "REAL"),
+        ("clarity_score", "REAL"),
+        ("error_words", "TEXT"),
+        ("feedback_message", "TEXT"),
+        ("duration", "REAL"),
+        ("comparison_map", "TEXT"),
+        ("user_timestamps", "TEXT"),
+        ("announcer_voice_url", "TEXT"),
+        ("user_voice_url", "TEXT"),
+        ("articulation_accuracy_fmt", "TEXT"),
+        ("speech_rate_fmt", "TEXT"),
+        ("silence_ratio_fmt", "TEXT"),
+        ("clarity_score_fmt", "TEXT"),
+        ("duration_fmt", "TEXT"),
+        ("target_bpm", "INTEGER"),
+    ]
+    for col, ctype in sentence_columns:
+        _add_column_if_missing(cursor, "sentence_table", col, ctype)
+    for col, ctype in analysis_columns:
+        _add_column_if_missing(cursor, "analysis_result_table", col, ctype)
+
+    cursor.execute("SELECT COUNT(*) FROM sentence_table")
+    if cursor.fetchone()[0] == 0:
+        # TODO: Replace fallback seed sentences with the team's production sentence source.
+        for item in FALLBACK_SENTENCES:
+            text = item["text"]
+            cursor.execute(
+                """
+                INSERT INTO sentence_table
+                    (news_id, paragraph_seq, text, guided_text, length, eojeol_count, eumjeol_count)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    item["news_id"],
+                    item["paragraph_seq"],
+                    text,
+                    item["guided_text"],
+                    len(text),
+                    len(text.split()),
+                    len(text.replace(" ", "")),
+                ),
+            )
+    conn.commit()
+    conn.close()
+
+
+@app.on_event("startup")
+def startup_event():
+    ensure_database()
 
 print("오리지널 Whisper 모델 로드 중 (CPU 모드 유지)...")
 model = whisper.load_model("large-v3", device="cpu")
@@ -228,7 +383,9 @@ def get_detailed_comparison(reference, recognized):
 
 
 # --- [API 1] 랜덤 문장 가져오기 ---
+@app.get("/api/sentence/random")
 def get_random_sentence():
+    ensure_database()
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
@@ -258,6 +415,7 @@ async def upload_audio(
     sentence_id: int = Query(..., description="비교할 문장의 ID"),
     file: UploadFile = File(...)
 ):
+    ensure_database()
     if not os.path.exists("temp_audio"): os.makedirs("temp_audio")
     file_path = f"temp_audio/{file.filename}"
     with open(file_path, "wb") as buffer:
@@ -542,6 +700,7 @@ async def check_drill(
 # --- [API 4] 과거 기록 조회 ---
 @app.get("/api/history")
 def get_history():
+    ensure_database()
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
@@ -591,6 +750,7 @@ def get_accumulated_drill_words(exclude: str = Query("", description="제외할 
     DB에 저장된 모든 분석 기록의 error_words를 수집하여
     중복 제거 후 반환합니다. exclude 파라미터로 현재 세션 단어를 제외할 수 있습니다.
     """
+    ensure_database()
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT error_words FROM analysis_result_table WHERE error_words IS NOT NULL AND error_words != '[]'")
@@ -619,16 +779,6 @@ def get_accumulated_drill_words(exclude: str = Query("", description="제외할 
     }
 
 
-# --- [SPA Fallback] 모든 정적 리소스는 여기서 처리 (API 라우트 이후) ---
-@app.get("/")
-async def read_index():
-    response = FileResponse("index.html")
-    response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
-    response.headers["Pragma"] = "no-cache"
-    response.headers["Expires"] = "0"
-    return response
-
-
 # --- [SPA Fallback] 루트 경로는 모든 API 라우트 이후에 처리 ---
 @app.get("/")
 async def read_index():
@@ -636,4 +786,5 @@ async def read_index():
     response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
     response.headers["Pragma"] = "no-cache"
     response.headers["Expires"] = "0"
+    response.headers["X-App-Version"] = APP_VERSION
     return response

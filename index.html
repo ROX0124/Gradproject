@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="app-version" content="20260525-4">
     <title>AI 보이스 코칭 프로토타입</title>
     <script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -491,6 +492,7 @@
 </div>
 
 <script>
+    const APP_VERSION = '20260525-4';
     const STATS_KEY = 'voice_stats_v1';
 
     // Relative-path API helper to prevent hardcoding localhost/127.0.0.1
@@ -498,15 +500,24 @@
         if (!path.startsWith("/")) {
             throw new Error(`API path must be relative and start with "/": ${path}`);
         }
+        const requestUrl = new URL(path, window.location.origin);
         try {
-            const response = await fetch(path, options);
+            const response = await fetch(path, { cache: "no-store", ...options });
             if (!response.ok) {
                 const text = await response.text();
-                throw new Error(`HTTP ${response.status}: ${text.slice(0, 500)}`);
+                const error = new Error(`${requestUrl.pathname}${requestUrl.search} failed with HTTP ${response.status}: ${text.slice(0, 300)}`);
+                error.url = requestUrl.href;
+                error.path = `${requestUrl.pathname}${requestUrl.search}`;
+                error.status = response.status;
+                throw error;
             }
             return response;
         } catch (err) {
-            console.error(`apiFetch failed for ${path}`, err);
+            console.error("apiFetch failed", {
+                url: requestUrl.href,
+                status: err.status || null,
+                error: err.message || String(err)
+            });
             throw err;
         }
     }
@@ -971,7 +982,7 @@
             }
             showScreen('screen-record');
         } catch (error) {
-            alert("서버 연결 실패! 네트워크를 확인하세요.\n" + error.message);
+            alert(`서버 연결 실패! 네트워크를 확인하세요.\n요청: ${error.path || "/api/sentence/random"}\n상태: ${error.status || "network"}\n${error.message}`);
             console.error(error);
         }
     }
@@ -1070,7 +1081,7 @@
                 }
             }, 400);
         } catch (error) {
-            alert("음성 분석 중 오류가 발생했습니다.");
+            alert(`음성 분석 중 오류가 발생했습니다.\n요청: ${error.path || "/upload"}\n상태: ${error.status || "network"}`);
             resetProgress();
             document.getElementById('btn-start-record').style.display = 'block';
             document.getElementById('loading').style.display = 'none';
@@ -1124,7 +1135,7 @@
             }
             showScreen('screen-history');
         } catch (error) {
-            alert("기록을 불러오지 못했습니다.");
+            alert(`기록을 불러오지 못했습니다.\n요청: ${error.path || "/api/history"}\n상태: ${error.status || "network"}`);
         }
     }
 
