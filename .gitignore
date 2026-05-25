@@ -1,6 +1,78 @@
+# Environment
+.env
 .venv/
+venv/
+env/
+ENV/
+
+# Python
 __pycache__/
-merged_voices_final/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database
 *.db
+*.sqlite
+*.sqlite3
+voice_analysis*.db
+
+# Audio files
 *.wav
 *.mp3
+*.webm
+merged_voices_final/
+announcer_voice/
+temp_audio/
+temp_drill/
+uploads/
+recordings/
+tmp/
+temp/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env.local
+.env.*.local
+cloudflared*
+*.pem
+*.key
+secrets/
+tokens/
+ngrok.exe
+ngrok
+
+# IDE & Workspace
+.vscode/
+.idea/
+*.code-workspace

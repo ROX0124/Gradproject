@@ -1,0 +1,8 @@
+fastapi==0.136.1
+uvicorn==0.46.0
+openai-whisper==20250625
+torch==2.7.1
+torchaudio==2.7.1
+requests==2.33.1
+python-multipart==0.0.26
+pandas==3.0.2

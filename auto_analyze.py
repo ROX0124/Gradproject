@@ -7,7 +7,9 @@ import json
 # ⚙️ 설정 부분 (내 환경에 맞게 확인하세요)
 # ==========================================
 # 1. FastAPI 서버 주소 (서버가 켜져 있어야 합니다)
-SERVER_URL = "http://localhost:8080/upload"  # 기존 엔드포인트 이름이 /analyze 였다면 수정해주세요.
+# Use relative path - will work whether accessed via localhost, IP, or domain
+SERVER_URL = "http://127.0.0.1:8080/upload"  # For local backend testing only
+# For production via Cloudflare Tunnel, use relative path in frontend instead
 
 # 2. 아나운서 통합 음성이 들어있는 폴더 경로
 AUDIO_DIR = "merged_voices_final"
